@@ -1,0 +1,251 @@
+Sending seq : 0
+Sending seq : 1
+Sending seq : 2
+Sending seq : 3
+Sending seq : 4
+Sending seq : 5
+Sending seq : 6
+Sending seq : 7
+Sending seq : 8
+Sending seq : 9
+Timeout
+Sending seq : 0
+Sending seq : 1
+Sending seq : 2
+Sending seq : 3
+Sending seq : 4
+Sending seq : 5
+Sending seq : 6
+Sending seq : 7
+Sending seq : 8
+Sending seq : 9
+Shifting window
+Sending seq : 10
+Shifting window
+Sending seq : 11
+Shifting window
+Sending seq : 12
+Timeout
+Sending seq : 3
+Sending seq : 4
+Sending seq : 5
+Sending seq : 6
+Sending seq : 7
+Sending seq : 8
+Sending seq : 9
+Sending seq : 10
+Sending seq : 11
+Sending seq : 12
+Shifting window
+Sending seq : 13
+Sending seq : 14
+Sending seq : 15
+Shifting window
+Sending seq : 16
+Shifting window
+Sending seq : 17
+Shifting window
+Sending seq : 18
+Shifting window
+Sending seq : 19
+Shifting window
+Sending seq : 20
+Shifting window
+Sending seq : 21
+Shifting window
+Sending seq : 22
+Shifting window
+Sending seq : 23
+Shifting window
+Sending seq : 24
+Shifting window
+Sending seq : 25
+Shifting window
+Sending seq : 26
+Shifting window
+Sending seq : 27
+Shifting window
+Sending seq : 28
+Shifting window
+Sending seq : 29
+Shifting window
+Sending seq : 30
+Shifting window
+Sending seq : 31
+Shifting window
+Sending seq : 32
+Shifting window
+Sending seq : 33
+Shifting window
+Sending seq : 34
+Shifting window
+Sending seq : 35
+Shifting window
+Sending seq : 36
+Shifting window
+Sending seq : 37
+Timeout
+Sending seq : 28
+Sending seq : 29
+Sending seq : 30
+Sending seq : 31
+Sending seq : 32
+Sending seq : 33
+Sending seq : 34
+Sending seq : 35
+Sending seq : 36
+Sending seq : 37
+Shifting window
+Sending seq : 38
+Shifting window
+Sending seq : 39
+Timeout
+Sending seq : 30
+Sending seq : 31
+Sending seq : 32
+Sending seq : 33
+Sending seq : 34
+Sending seq : 35
+Sending seq : 36
+Sending seq : 37
+Sending seq : 38
+Sending seq : 39
+Timeout
+Sending seq : 30
+Sending seq : 31
+Sending seq : 32
+Sending seq : 33
+Sending seq : 34
+Sending seq : 35
+Sending seq : 36
+Sending seq : 37
+Sending seq : 38
+Sending seq : 39
+Shifting window
+Sending seq : 40
+Shifting window
+Sending seq : 41
+Shifting window
+Sending seq : 42
+Timeout
+Sending seq : 33
+Sending seq : 34
+Sending seq : 35
+Sending seq : 36
+Sending seq : 37
+Sending seq : 38
+Sending seq : 39
+Sending seq : 40
+Sending seq : 41
+Sending seq : 42
+Shifting window
+Sending seq : 43
+Shifting window
+Sending seq : 44
+Shifting window
+Sending seq : 45
+Shifting window
+Sending seq : 46
+Shifting window
+Sending seq : 47
+Shifting window
+Sending seq : 48
+Shifting window
+Sending seq : 49
+Shifting window
+Sending seq : 50
+Shifting window
+Sending seq : 51
+Timeout
+Sending seq : 42
+Sending seq : 43
+Sending seq : 44
+Sending seq : 45
+Sending seq : 46
+Sending seq : 47
+Sending seq : 48
+Sending seq : 49
+Sending seq : 50
+Sending seq : 51
+Shifting window
+Sending seq : 52
+Sending seq : 53
+Timeout
+Sending seq : 44
+Sending seq : 45
+Sending seq : 46
+Sending seq : 47
+Sending seq : 48
+Sending seq : 49
+Sending seq : 50
+Sending seq : 51
+Sending seq : 52
+Sending seq : 53
+Shifting window
+Sending seq : 54
+Shifting window
+Sending seq : 55
+Shifting window
+Sending seq : 56
+Shifting window
+Sending seq : 57
+Shifting window
+Sending seq : 58
+Shifting window
+Sending seq : 59
+Shifting window
+Sending seq : 60
+Shifting window
+Sending seq : 61
+Shifting window
+Sending seq : 62
+Shifting window
+Sending seq : 63
+Shifting window
+Sending seq : 64
+Shifting window
+Sending seq : 65
+Shifting window
+Sending seq : 66
+Shifting window
+Sending seq : 67
+Shifting window
+Sending seq : 68
+Shifting window
+Sending seq : 69
+Shifting window
+Sending seq : 70
+Shifting window
+Sending seq : 71
+Shifting window
+Sending seq : 72
+Shifting window
+Sending seq : 73
+Shifting window
+Sending seq : 74
+Shifting window
+Sending seq : 75
+Timeout
+Sending seq : 66
+Sending seq : 67
+Sending seq : 68
+Sending seq : 69
+Sending seq : 70
+Sending seq : 71
+Sending seq : 72
+Sending seq : 73
+Sending seq : 74
+Sending seq : 75
+Shifting window
+Sending seq : 76
+Shifting window
+Sending seq : 77
+Shifting window
+Sending seq : 78
+Shifting window
+Sending seq : 79
+Shifting window
+Sending seq : 80
+Shifting window
+Sending seq : 81
+Timeout

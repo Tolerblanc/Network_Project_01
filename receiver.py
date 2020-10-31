@@ -5,12 +5,67 @@ Author   : HyunJun KIM (2019204054)
 """
 
 from socket import *
-from timer import Timer
-import socket, time, random, sys
-import exceptions
+import time, sys
+import utils
 
-SERVER_ADDR = "127.0.0.1"
-SERVER_PORT = 4242
-TIMEOUT_INTERVAL = 10
+RECEIVER_ADDR = "127.0.0.1"
+RECEIVER_PORT = 4242
 WINDOW_SIZE = 50
-LOSS_PROB = 0.001
+
+
+def rdt3_receive(sock):
+    gbn_receive(sock)
+
+
+def gbn_receive(sock):
+    expected_seq = 0  # Expected value of the packet sequence number to receive
+    # log file input
+    try:
+        log = open("recvlog.txt", 'a')
+    except IOError:
+        print('cannot open recvlog.txt')
+        return
+
+    while True:
+        # Get next packet from sender
+        pack, addr = utils.recv(sock)
+        seq_num = utils.extract_packet(pack)
+        if seq_num == -1:
+            break
+        print('Packet Detected : ', seq_num)
+        if seq_num == expected_seq:
+            print('Got Expected Packet, Sending ACK : ', expected_seq)
+            pack = utils.make_packet(expected_seq)
+            utils.send(pack, sock, addr)
+            log.write(str(time.ctime()) + 'GBN Received ' + str(seq_num) + ', Sending ACK ' + str(expected_seq) + '\n')
+            expected_seq += 1
+        else:
+            print('Not Expected Packet, Sending ACK : ', expected_seq - 1)
+            pack = utils.make_packet(expected_seq - 1)
+            utils.send(pack, sock, addr)
+            log.write(str(time.ctime()) + 'GBN Received ' + str(seq_num) + ', Sending ACK ' + str(expected_seq) + '\n')
+
+    log.close()
+
+
+def sr_receive(sock):
+    pass
+
+
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        print("Usage:: python receiver.py <protocol type : rdt3, gbn, sr")
+        exit()
+
+    sock = socket(AF_INET, SOCK_DGRAM)
+    sock.bind((RECEIVER_ADDR, RECEIVER_PORT))
+    if sys.argv[1] == 'rdt3':
+        rdt3_receive(sock)
+    elif sys.argv[1] == 'gbn':
+        gbn_receive(sock)
+    elif sys.argv[1] == 'sr':
+        sr_receive(sock)
+    else:
+        print("Invalid Protocol Type Input : {'rdt3', 'gbn', 'sr'}")
+        exit()
+    sock.close()

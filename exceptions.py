@@ -13,6 +13,14 @@ class SocketError(Exception):
         return self.msg
 
 
+class PacketError(Exception):
+    def __init__(self, m):
+        self.msg = '!!! PacketError Detected !!!\n' + m
+
+    def __str__(self):
+        return self.msg
+
+
 class FileIOError(Exception):
     def __init__(self, m):
         self.msg = '!!! FileIOError Detected !!!\n' + m
