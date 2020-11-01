@@ -55,7 +55,6 @@ def send(packet, sock, addr):
         sock.sendto(packet, addr)
         return True
     else:
-        print('!!!packet loss!!!')
         return False
 
 def recv(sock):

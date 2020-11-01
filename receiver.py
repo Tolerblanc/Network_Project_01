@@ -5,6 +5,7 @@ Author   : HyunJun KIM (2019204054)
 """
 
 from socket import *
+from sender import WINDOW_SIZE, TIMEOUT_THRESHOLD, MAXIMUM_TIME
 import datetime, sys
 import utils
 
@@ -35,22 +36,26 @@ def rdt3_receive(sock):
         seq_num = utils.extract_packet(pack)
         if seq_num == -1:
             break
-        print('Packet Detected : ', seq_num)
         if seq_num == expected_seq:
-            print('Got Expected Packet, Sending ACK : ', expected_seq)
             pack = utils.make_packet(expected_seq)
-            utils.send(pack, sock, addr)
-            log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Received ' + str(seq_num) + ', Sending ACK ' + str(
-                expected_seq) + '\n')
+            sent = utils.send(pack, sock, addr)
+            if not sent:
+                log.write(str(datetime.datetime.now()) + ' [RDT 3.0] ACK LOSS Occured at seq ' + str(seq_num) + '\n')
+            else:
+                log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Received Expected ' +
+                          str(seq_num) + ', Sending ACK ' + str(expected_seq) + '\n')
             received_pack.append(expected_seq)
             expected_seq += 1
-            # expected_seq = 1 - expected_seq
+            # expected_seq = 1 - expected_seq  # origin rdt 3.0
         else:
             print('Not Expected Packet, Sending ACK : ', seq_num)
             pack = utils.make_packet(seq_num)
-            utils.send(pack, sock, addr)
-            log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Received ' + str(seq_num) + ', Sending ACK ' + str(
-                expected_seq) + '\n')
+            sent = utils.send(pack, sock, addr)
+            if not sent:
+                log.write(str(datetime.datetime.now()) + ' [RDT 3.0] ACK LOSS Occured at seq ' + str(seq_num) + '\n')
+            else:
+                log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Received Not Expected' +
+                          str(seq_num) + ', Sending ACK ' + str(expected_seq) + '\n')
 
     log.close()
     return received_pack
@@ -76,20 +81,23 @@ def gbn_receive(sock):
         seq_num = utils.extract_packet(pack)
         if seq_num == -1:
             break
-        print('Packet Detected : ', seq_num)
         if seq_num == expected_seq:
-            print('Got Expected Packet, Sending ACK : ', expected_seq)
             pack = utils.make_packet(expected_seq)
-            utils.send(pack, sock, addr)
-            log.write(str(datetime.datetime.now()) + ' [GoBackN] Received ' + str(seq_num)
-                      + ', Sending ACK ' + str(expected_seq) + '\n')
+            sent = utils.send(pack, sock, addr)
+            if not sent:
+                log.write(str(datetime.datetime.now()) + ' [GoBackN] ACK LOSS Occured at seq ' + str(seq_num) + '\n')
+            else:
+                log.write(str(datetime.datetime.now()) + ' [GoBackN] Received Expected ' + str(seq_num)
+                          + ', Sending ACK ' + str(expected_seq) + '\n')
             received_pack.append(expected_seq)
             expected_seq += 1
         else:
-            print('Not Expected Packet, Sending ACK : ', expected_seq - 1)
             pack = utils.make_packet(expected_seq - 1)
-            utils.send(pack, sock, addr)
-            log.write(str(datetime.datetime.now()) + ' [GoBackN] Received ' + str(seq_num)
+            sent = utils.send(pack, sock, addr)
+            if not sent:
+                log.write(str(datetime.datetime.now()) + ' [GoBackN] ACK LOSS Occured at seq ' + str(seq_num) + '\n')
+            else:
+                log.write(str(datetime.datetime.now()) + ' [GoBackN] Received Not Expected ' + str(seq_num)
                       + ', Sending ACK ' + str(expected_seq) + '\n')
 
     log.close()
@@ -116,15 +124,14 @@ def sr_receive(sock):
         sequence_num = utils.extract_packet(pack)
         if sequence_num == -1:
             break
-        print('Packet Detected : ', sequence_num)
-        print('expected : ', expected_seq)
         if sequence_num == expected_seq:
-            print('Got Expected Packet, Sending ACK : ', sequence_num)
             pack = utils.make_packet(sequence_num)
             sent = utils.send(pack, sock, addr)
             if not sent:
+                log.write(str(datetime.datetime.now()) + ' [SelRep] ACK LOSS Occured at seq ' + str(sequence_num) + '\n')
                 continue
-            log.write(str(datetime.datetime.now()) + ' [SelRep] Received ' + str(sequence_num)
+            else:
+                log.write(str(datetime.datetime.now()) + ' [SelRep] Received Expected' + str(sequence_num)
                       + ', Sending ACK ' + str(sequence_num) + '\n')
             if len(received_pack) == 0:
                 received_pack.append(expected_seq)
@@ -137,10 +144,12 @@ def sr_receive(sock):
                 received_pack.append(expected_seq)
                 expected_seq += 1
         else:
-            print('Not Expected Packet, Sending ACK : ', sequence_num)
             pack = utils.make_packet(sequence_num)
-            utils.send(pack, sock, addr)
-            log.write(str(datetime.datetime.now()) + ' [Selrep] Received ' + str(sequence_num)
+            sent = utils.send(pack, sock, addr)
+            if not sent:
+                log.write(str(datetime.datetime.now()) + ' [SelRep] ACK LOSS Occured at seq ' + str(sequence_num) + '\n')
+            else:
+                log.write(str(datetime.datetime.now()) + ' [SelRep] Received Not Expected' + str(sequence_num)
                       + ', Sending ACK ' + str(sequence_num) + '\n')
             if sequence_num != received_pack[-1]:
                 received_pack.append(sequence_num)
@@ -157,14 +166,29 @@ if __name__ == '__main__':
     sock = socket(AF_INET, SOCK_DGRAM)
     sock.bind((RECEIVER_ADDR, RECEIVER_PORT))
     if sys.argv[1] == 'rdt3':
+        pro = 'RDT 3.0'
         result = rdt3_receive(sock)
     elif sys.argv[1] == 'gbn':
+        pro = 'Go-Back-N'
         result = gbn_receive(sock)
     elif sys.argv[1] == 'sr':
+        pro = 'Selective-Repeat'
         result = sr_receive(sock)
     else:
         print("Invalid Protocol Type Input : {'rdt3', 'gbn', 'sr'}")
         exit()
     sock.close()
-    print('result : ', result)
-    print('received : ', len(result))
+
+    with open('data.txt', 'a') as f:
+        if pro == 'RDT 3.0':
+            log = pro + ' ' + str(len(result)) + ' ' + str(MAXIMUM_TIME) + 's ' \
+                  + str(utils.LOSS_PROB) + ' ' + str(TIMEOUT_THRESHOLD)
+        else:
+            log = pro + ' ' + str(len(result)) + ' ' + str(MAXIMUM_TIME) + 's ' \
+                  + str(utils.LOSS_PROB) + ' ' + str(TIMEOUT_THRESHOLD) + ' ' + str(WINDOW_SIZE)
+        f.write(log + '\n')
+
+    print("Log file generated at 'recvlog.txt'")
+    print("Successfully Received!")
+    print(result)
+    print("The program will exit.")

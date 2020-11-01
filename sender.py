@@ -13,7 +13,7 @@ RECEIVER_ADDR = "127.0.0.1"
 RECEIVER_PORT = 4242
 SENDER_ADDR = "127.0.0.1"
 SENDER_PORT = 2424
-TIMEOUT_INTERVAL = 0.1  # default
+TIMEOUT_THRESHOLD = 0.1  # default
 WINDOW_SIZE = 25  # sender window size (G&B, SR)
 MAXIMUM_TIME = 10  # max execute time
 TIME_LIMITER = time.time() + MAXIMUM_TIME  # max time threshold
@@ -21,7 +21,7 @@ TIME_LIMITER = time.time() + MAXIMUM_TIME  # max time threshold
 # thread acrossing resources
 base = 0
 mutex = _thread.allocate_lock()
-send_timer = utils.Timer(TIMEOUT_INTERVAL)
+send_timer = utils.Timer(TIMEOUT_THRESHOLD)
 acked = [False for _ in range(WINDOW_SIZE)]
 
 
@@ -46,12 +46,14 @@ def rdt3_send(sock):
 
     while time.time() <= TIME_LIMITER:
         mutex.acquire()
-        print('Sending seq : ', next_seq_num)
-        log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Sending sequence : ' + str(next_seq_num) + '\n')
         pack = utils.make_packet(next_seq_num)
-        utils.send(pack, sock, (RECEIVER_ADDR, RECEIVER_PORT))
+        sent = utils.send(pack, sock, (RECEIVER_ADDR, RECEIVER_PORT))
+        if not sent:
+            log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Data Loss Occured : ' + str(next_seq_num) + '\n')
+        else:
+            log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Sending sequence : ' + str(next_seq_num) + '\n')
         next_seq_num += 1
-        #next_seq_num = 1 - next_seq_num
+        #next_seq_num = 1 - next_seq_num  #default rdt 3.0
 
         if not send_timer.isOngoing():
             send_timer.start()
@@ -64,16 +66,18 @@ def rdt3_send(sock):
             mutex.acquire()
 
         if send_timer.chk_timeout():
-            print('Timeout')
             log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Timeout : ' + str(next_seq_num - 1) + '\n')
             send_timer.reset()
             next_seq_num = base
         mutex.release()
 
     utils.send(utils.make_packet(-1), sock, (RECEIVER_ADDR, RECEIVER_PORT))
+    print("Log file generated at 'sendlog.txt'")
+    print("Successfully sent! The program will exit.")
+
     log.close()
     _thread.exit()
-
+    sock.close()
 
 def gbn_send(sock):
     """
@@ -98,10 +102,12 @@ def gbn_send(sock):
         mutex.acquire()
 
         while next_seq_num < base + WINDOW_SIZE:
-            print('Sending seq : ', next_seq_num)
-            log.write(str(datetime.datetime.now()) + ' [GoBackN] Sending sequence : ' + str(next_seq_num) + '\n')
             pack = utils.make_packet(next_seq_num)
-            utils.send(pack, sock, (RECEIVER_ADDR, RECEIVER_PORT))
+            sent = utils.send(pack, sock, (RECEIVER_ADDR, RECEIVER_PORT))
+            if not sent:
+                log.write(str(datetime.datetime.now()) + ' [GoBackN] Data Loss Occured : ' + str(next_seq_num) + '\n')
+            else:
+                log.write(str(datetime.datetime.now()) + ' [GoBackN] Sending sequence : ' + str(next_seq_num) + '\n')
             next_seq_num += 1
 
         if not send_timer.isOngoing():
@@ -115,16 +121,18 @@ def gbn_send(sock):
             mutex.acquire()
 
         if send_timer.chk_timeout():
-            print('Timeout')
             log.write(str(datetime.datetime.now()) + ' [GoBackN] Timeout : ' + str(next_seq_num) + '\n')
             send_timer.reset()
             next_seq_num = base
         mutex.release()
 
     utils.send(utils.make_packet(-1), sock, (RECEIVER_ADDR, RECEIVER_PORT))
+    print("Log file generated at 'sendlog.txt'")
+    print("Successfully sent! The program will exit.")
+
     log.close()
     _thread.exit()
-
+    sock.close()
 
 def sr_send(sock):
     """
@@ -147,17 +155,18 @@ def sr_send(sock):
 
     while time.time() <= TIME_LIMITER:
         mutex.acquire()
-        print(acked)
         while next_seq_num < len(acked):
-            print('nextseq = ', next_seq_num)
             if acked[next_seq_num]:
-                print('duplicated')
+                log.write(str(datetime.datetime.now()) + ' [SelRep] Duplicated : ' + str(next_seq_num)
+                          + ' pass this sequence\n')
                 next_seq_num += 1
                 continue
-            print('Sending seq : ', next_seq_num)
-            log.write(str(datetime.datetime.now()) + ' [SelRep] Sending sequence : ' + str(next_seq_num) + '\n')
             pack = utils.make_packet(next_seq_num)
-            utils.send(pack, sock, (RECEIVER_ADDR, RECEIVER_PORT))
+            sent = utils.send(pack, sock, (RECEIVER_ADDR, RECEIVER_PORT))
+            if not sent:
+                log.write(str(datetime.datetime.now()) + ' [SelRep] Data Loss Occured : ' + str(next_seq_num) + '\n')
+            else:
+                log.write(str(datetime.datetime.now()) + ' [SelRep] Sending sequence : ' + str(next_seq_num) + '\n')
             next_seq_num += 1
 
         if not send_timer.isOngoing():
@@ -167,11 +176,10 @@ def sr_send(sock):
             mutex.release()
             sleeper = random.uniform(0.08, 0.12)
             time.sleep(sleeper)
-            # print('Sleep : ', sleeper, 'ms')
+            log.write(str(datetime.datetime.now()) + ' [SelRep] RTT : Sleep ' + str(next_seq_num) + 's\n')
             mutex.acquire()
 
         if send_timer.chk_timeout():
-            print('Timeout')
             log.write(str(datetime.datetime.now()) + ' [SelRep] Timeout : ' + str(next_seq_num) + '\n')
             send_timer.reset()
             next_seq_num = base
@@ -186,9 +194,12 @@ def sr_send(sock):
         mutex.release()
 
     utils.send(utils.make_packet(-1), sock, (RECEIVER_ADDR, RECEIVER_PORT))
+    print("Log file generated at 'sendlog.txt'")
+    print("Successfully sent! The program will exit.")
+
     log.close()
     _thread.exit()
-
+    sock.close()
 
 def ack_receive(sock):
     """
@@ -200,11 +211,9 @@ def ack_receive(sock):
         pack, _ = utils.recv(sock)
         ack = utils.extract_packet(pack)
 
-        print('Got ACK : ', ack)
         if ack >= base:
             mutex.acquire()
             base = ack + 1
-            print('Base updated ', base)
             send_timer.reset()
             mutex.release()
 
@@ -218,12 +227,10 @@ def sr_ack_receive(sock):
         pack, _ = utils.recv(sock)
         ack = utils.extract_packet(pack)
 
-        print('Got ACK : ', ack)
         acked[ack] = True
         if acked[base]:
             mutex.acquire()
             base = ack + 1
-            print('Base updated ', base)
             send_timer.reset()
             mutex.release()
 
@@ -250,4 +257,4 @@ if __name__ == '__main__':
         print("Invalid Protocol Type Input : {'rdt3', 'gbn', 'sr'}")
         exit()
 
-    sock.close()
+

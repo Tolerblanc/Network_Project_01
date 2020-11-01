@@ -1,0 +1,5 @@
+Selective-Repeat 950 10s 0.1 0.1 25
+Go-Back-N 487 10s 0.1 0.1 25
+RDT 3.0 68 10s 0.1 0.1
+Selective-Repeat 913 10s 0.1 0.1 25
+Go-Back-N 339 10s 0.1 0.1 25
