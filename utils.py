@@ -11,26 +11,29 @@ LOSS_PROB = 0.1
 
 
 class Timer:
+    """
+    Timer class to implement timeout
+    """
     def __init__(self, d):
         self._ongoing = False
         self._curr_time = 0
         self._duration = d
 
-    def start(self):
+    def start(self):  # timer start
         if not self._ongoing and self._curr_time == 0:
             self._curr_time = time.time()
             self._ongoing = True
 
-    def isOngoing(self):
+    def isOngoing(self):  # check timer is working
         return self._ongoing
 
-    def reset(self):
+    def reset(self):  # reset timer
         if self._ongoing:
             self._ongoing = False
         if self._curr_time:
             self._curr_time = 0
 
-    def chk_timeout(self):
+    def chk_timeout(self):  # check current packet timeout
         if not self.isOngoing():
             return False
         else:
@@ -38,6 +41,12 @@ class Timer:
 
 
 def send(packet, sock, addr):
+    """
+    send function implemented
+    :param packet: packet to send
+    :param sock: python socket object
+    :param addr: (Address, Port)tuple
+    """
     if random.random() > LOSS_PROB:
         sock.sendto(packet, addr)
     else:

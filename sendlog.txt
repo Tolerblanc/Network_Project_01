@@ -1,251 +1,101 @@
-Sending seq : 0
-Sending seq : 1
-Sending seq : 2
-Sending seq : 3
-Sending seq : 4
-Sending seq : 5
-Sending seq : 6
-Sending seq : 7
-Sending seq : 8
-Sending seq : 9
-Timeout
-Sending seq : 0
-Sending seq : 1
-Sending seq : 2
-Sending seq : 3
-Sending seq : 4
-Sending seq : 5
-Sending seq : 6
-Sending seq : 7
-Sending seq : 8
-Sending seq : 9
-Shifting window
-Sending seq : 10
-Shifting window
-Sending seq : 11
-Shifting window
-Sending seq : 12
-Timeout
-Sending seq : 3
-Sending seq : 4
-Sending seq : 5
-Sending seq : 6
-Sending seq : 7
-Sending seq : 8
-Sending seq : 9
-Sending seq : 10
-Sending seq : 11
-Sending seq : 12
-Shifting window
-Sending seq : 13
-Sending seq : 14
-Sending seq : 15
-Shifting window
-Sending seq : 16
-Shifting window
-Sending seq : 17
-Shifting window
-Sending seq : 18
-Shifting window
-Sending seq : 19
-Shifting window
-Sending seq : 20
-Shifting window
-Sending seq : 21
-Shifting window
-Sending seq : 22
-Shifting window
-Sending seq : 23
-Shifting window
-Sending seq : 24
-Shifting window
-Sending seq : 25
-Shifting window
-Sending seq : 26
-Shifting window
-Sending seq : 27
-Shifting window
-Sending seq : 28
-Shifting window
-Sending seq : 29
-Shifting window
-Sending seq : 30
-Shifting window
-Sending seq : 31
-Shifting window
-Sending seq : 32
-Shifting window
-Sending seq : 33
-Shifting window
-Sending seq : 34
-Shifting window
-Sending seq : 35
-Shifting window
-Sending seq : 36
-Shifting window
-Sending seq : 37
-Timeout
-Sending seq : 28
-Sending seq : 29
-Sending seq : 30
-Sending seq : 31
-Sending seq : 32
-Sending seq : 33
-Sending seq : 34
-Sending seq : 35
-Sending seq : 36
-Sending seq : 37
-Shifting window
-Sending seq : 38
-Shifting window
-Sending seq : 39
-Timeout
-Sending seq : 30
-Sending seq : 31
-Sending seq : 32
-Sending seq : 33
-Sending seq : 34
-Sending seq : 35
-Sending seq : 36
-Sending seq : 37
-Sending seq : 38
-Sending seq : 39
-Timeout
-Sending seq : 30
-Sending seq : 31
-Sending seq : 32
-Sending seq : 33
-Sending seq : 34
-Sending seq : 35
-Sending seq : 36
-Sending seq : 37
-Sending seq : 38
-Sending seq : 39
-Shifting window
-Sending seq : 40
-Shifting window
-Sending seq : 41
-Shifting window
-Sending seq : 42
-Timeout
-Sending seq : 33
-Sending seq : 34
-Sending seq : 35
-Sending seq : 36
-Sending seq : 37
-Sending seq : 38
-Sending seq : 39
-Sending seq : 40
-Sending seq : 41
-Sending seq : 42
-Shifting window
-Sending seq : 43
-Shifting window
-Sending seq : 44
-Shifting window
-Sending seq : 45
-Shifting window
-Sending seq : 46
-Shifting window
-Sending seq : 47
-Shifting window
-Sending seq : 48
-Shifting window
-Sending seq : 49
-Shifting window
-Sending seq : 50
-Shifting window
-Sending seq : 51
-Timeout
-Sending seq : 42
-Sending seq : 43
-Sending seq : 44
-Sending seq : 45
-Sending seq : 46
-Sending seq : 47
-Sending seq : 48
-Sending seq : 49
-Sending seq : 50
-Sending seq : 51
-Shifting window
-Sending seq : 52
-Sending seq : 53
-Timeout
-Sending seq : 44
-Sending seq : 45
-Sending seq : 46
-Sending seq : 47
-Sending seq : 48
-Sending seq : 49
-Sending seq : 50
-Sending seq : 51
-Sending seq : 52
-Sending seq : 53
-Shifting window
-Sending seq : 54
-Shifting window
-Sending seq : 55
-Shifting window
-Sending seq : 56
-Shifting window
-Sending seq : 57
-Shifting window
-Sending seq : 58
-Shifting window
-Sending seq : 59
-Shifting window
-Sending seq : 60
-Shifting window
-Sending seq : 61
-Shifting window
-Sending seq : 62
-Shifting window
-Sending seq : 63
-Shifting window
-Sending seq : 64
-Shifting window
-Sending seq : 65
-Shifting window
-Sending seq : 66
-Shifting window
-Sending seq : 67
-Shifting window
-Sending seq : 68
-Shifting window
-Sending seq : 69
-Shifting window
-Sending seq : 70
-Shifting window
-Sending seq : 71
-Shifting window
-Sending seq : 72
-Shifting window
-Sending seq : 73
-Shifting window
-Sending seq : 74
-Shifting window
-Sending seq : 75
-Timeout
-Sending seq : 66
-Sending seq : 67
-Sending seq : 68
-Sending seq : 69
-Sending seq : 70
-Sending seq : 71
-Sending seq : 72
-Sending seq : 73
-Sending seq : 74
-Sending seq : 75
-Shifting window
-Sending seq : 76
-Shifting window
-Sending seq : 77
-Shifting window
-Sending seq : 78
-Shifting window
-Sending seq : 79
-Shifting window
-Sending seq : 80
-Shifting window
-Sending seq : 81
-Timeout
+2020-11-01 17:00:33.206177 [RDT 3.0] Sending sequence : 0
+2020-11-01 17:00:33.314200 [RDT 3.0] Sending sequence : 1
+2020-11-01 17:00:33.432292 [RDT 3.0] Timeout : 2
+2020-11-01 17:00:33.432292 [RDT 3.0] Sending sequence : 1
+2020-11-01 17:00:33.640281 [RDT 3.0] Timeout : 2
+2020-11-01 17:00:33.640281 [RDT 3.0] Sending sequence : 1
+2020-11-01 17:00:33.743305 [RDT 3.0] Sending sequence : 2
+2020-11-01 17:00:33.831316 [RDT 3.0] Sending sequence : 3
+2020-11-01 17:00:33.912335 [RDT 3.0] Sending sequence : 4
+2020-11-01 17:00:34.020359 [RDT 3.0] Sending sequence : 5
+2020-11-01 17:00:34.103378 [RDT 3.0] Sending sequence : 6
+2020-11-01 17:01:02.655613 [GoBackN] Sending sequence : 0
+2020-11-01 17:01:02.655613 [GoBackN] Sending sequence : 1
+2020-11-01 17:01:02.657613 [GoBackN] Sending sequence : 2
+2020-11-01 17:01:02.658614 [GoBackN] Sending sequence : 3
+2020-11-01 17:01:02.659614 [GoBackN] Sending sequence : 4
+2020-11-01 17:01:02.659614 [GoBackN] Sending sequence : 5
+2020-11-01 17:01:02.660614 [GoBackN] Sending sequence : 6
+2020-11-01 17:01:02.660614 [GoBackN] Sending sequence : 7
+2020-11-01 17:01:02.661614 [GoBackN] Sending sequence : 8
+2020-11-01 17:01:02.662615 [GoBackN] Sending sequence : 9
+2020-11-01 17:01:02.764637 [GoBackN] Shifting window
+2020-11-01 17:01:02.764637 [GoBackN] Sending sequence : 10
+2020-11-01 17:01:02.764637 [GoBackN] Sending sequence : 11
+2020-11-01 17:01:02.766081 [GoBackN] Sending sequence : 12
+2020-11-01 17:01:02.768638 [GoBackN] Sending sequence : 13
+2020-11-01 17:01:02.769638 [GoBackN] Sending sequence : 14
+2020-11-01 17:01:02.957681 [GoBackN] Timeout : 15
+2020-11-01 17:01:02.957681 [GoBackN] Sending sequence : 5
+2020-11-01 17:01:02.957681 [GoBackN] Sending sequence : 6
+2020-11-01 17:01:02.957681 [GoBackN] Sending sequence : 7
+2020-11-01 17:01:02.958681 [GoBackN] Sending sequence : 8
+2020-11-01 17:01:02.959681 [GoBackN] Sending sequence : 9
+2020-11-01 17:01:02.960681 [GoBackN] Sending sequence : 10
+2020-11-01 17:01:02.960681 [GoBackN] Sending sequence : 11
+2020-11-01 17:01:02.961682 [GoBackN] Sending sequence : 12
+2020-11-01 17:01:02.961682 [GoBackN] Sending sequence : 13
+2020-11-01 17:01:02.962682 [GoBackN] Sending sequence : 14
+2020-11-01 17:01:03.047701 [GoBackN] Shifting window
+2020-11-01 17:01:03.047701 [GoBackN] Sending sequence : 15
+2020-11-01 17:01:03.048701 [GoBackN] Sending sequence : 16
+2020-11-01 17:01:03.049702 [GoBackN] Sending sequence : 17
+2020-11-01 17:01:03.049702 [GoBackN] Sending sequence : 18
+2020-11-01 17:01:03.050702 [GoBackN] Sending sequence : 19
+2020-11-01 17:01:03.051702 [GoBackN] Sending sequence : 20
+2020-11-01 17:01:03.051702 [GoBackN] Sending sequence : 21
+2020-11-01 17:01:03.052702 [GoBackN] Sending sequence : 22
+2020-11-01 17:01:03.053702 [GoBackN] Sending sequence : 23
+2020-11-01 17:01:03.054703 [GoBackN] Sending sequence : 24
+2020-11-01 17:01:03.161727 [GoBackN] Shifting window
+2020-11-01 17:01:03.161727 [GoBackN] Sending sequence : 25
+2020-11-01 17:01:03.161727 [GoBackN] Sending sequence : 26
+2020-11-01 17:01:03.162727 [GoBackN] Sending sequence : 27
+2020-11-01 17:01:03.163727 [GoBackN] Sending sequence : 28
+2020-11-01 17:01:03.163727 [GoBackN] Sending sequence : 29
+2020-11-01 17:01:03.164728 [GoBackN] Sending sequence : 30
+2020-11-01 17:01:03.165727 [GoBackN] Sending sequence : 31
+2020-11-01 17:01:03.165727 [GoBackN] Sending sequence : 32
+2020-11-01 17:01:03.166728 [GoBackN] Sending sequence : 33
+2020-11-01 17:01:03.167728 [GoBackN] Sending sequence : 34
+2020-11-01 17:01:03.251747 [GoBackN] Shifting window
+2020-11-01 17:01:03.251747 [GoBackN] Sending sequence : 35
+2020-11-01 17:01:03.252747 [GoBackN] Sending sequence : 36
+2020-11-01 17:01:03.253748 [GoBackN] Sending sequence : 37
+2020-11-01 17:01:03.253748 [GoBackN] Sending sequence : 38
+2020-11-01 17:01:03.254748 [GoBackN] Sending sequence : 39
+2020-11-01 17:01:03.255748 [GoBackN] Sending sequence : 40
+2020-11-01 17:01:03.255748 [GoBackN] Sending sequence : 41
+2020-11-01 17:01:03.256748 [GoBackN] Sending sequence : 42
+2020-11-01 17:01:03.256748 [GoBackN] Sending sequence : 43
+2020-11-01 17:01:03.257748 [GoBackN] Sending sequence : 44
+2020-11-01 17:01:03.351770 [GoBackN] Shifting window
+2020-11-01 17:01:03.351770 [GoBackN] Sending sequence : 45
+2020-11-01 17:01:03.352770 [GoBackN] Sending sequence : 46
+2020-11-01 17:01:03.353770 [GoBackN] Sending sequence : 47
+2020-11-01 17:01:03.354771 [GoBackN] Sending sequence : 48
+2020-11-01 17:01:03.354771 [GoBackN] Sending sequence : 49
+2020-11-01 17:01:03.355771 [GoBackN] Sending sequence : 50
+2020-11-01 17:01:03.355771 [GoBackN] Sending sequence : 51
+2020-11-01 17:01:03.356771 [GoBackN] Sending sequence : 52
+2020-11-01 17:01:03.357771 [GoBackN] Sending sequence : 53
+2020-11-01 17:01:03.358771 [GoBackN] Sending sequence : 54
+2020-11-01 17:01:03.448791 [GoBackN] Shifting window
+2020-11-01 17:01:03.448791 [GoBackN] Sending sequence : 55
+2020-11-01 17:01:03.448791 [GoBackN] Sending sequence : 56
+2020-11-01 17:01:03.450792 [GoBackN] Sending sequence : 57
+2020-11-01 17:01:03.450792 [GoBackN] Sending sequence : 58
+2020-11-01 17:01:03.451792 [GoBackN] Sending sequence : 59
+2020-11-01 17:01:03.451792 [GoBackN] Sending sequence : 60
+2020-11-01 17:01:03.452793 [GoBackN] Sending sequence : 61
+2020-11-01 17:01:03.453792 [GoBackN] Sending sequence : 62
+2020-11-01 17:01:03.453792 [GoBackN] Sending sequence : 63
+2020-11-01 17:01:03.454793 [GoBackN] Sending sequence : 64
+2020-11-01 17:01:03.564817 [GoBackN] Shifting window
+2020-11-01 17:01:03.564817 [GoBackN] Sending sequence : 65
+2020-11-01 17:01:03.565818 [GoBackN] Sending sequence : 66
+2020-11-01 17:01:03.565818 [GoBackN] Sending sequence : 67
+2020-11-01 17:01:03.567818 [GoBackN] Sending sequence : 68
+2020-11-01 17:01:03.568819 [GoBackN] Sending sequence : 69
+2020-11-01 17:01:03.568819 [GoBackN] Sending sequence : 70
+2020-11-01 17:01:03.685845 [GoBackN] Timeout : 71

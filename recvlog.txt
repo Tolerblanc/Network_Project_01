@@ -1,159 +1,85 @@
-Sun Nov  1 03:19:11 2020GBN Received 1, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 2, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 3, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 4, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 5, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 6, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 7, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 8, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 9, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 0, Sending ACK 0
-Sun Nov  1 03:19:11 2020GBN Received 1, Sending ACK 1
-Sun Nov  1 03:19:11 2020GBN Received 2, Sending ACK 2
-Sun Nov  1 03:19:11 2020GBN Received 4, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 5, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 6, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 7, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 8, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 9, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 10, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 11, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 12, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 3, Sending ACK 3
-Sun Nov  1 03:19:11 2020GBN Received 4, Sending ACK 4
-Sun Nov  1 03:19:11 2020GBN Received 5, Sending ACK 5
-Sun Nov  1 03:19:11 2020GBN Received 6, Sending ACK 6
-Sun Nov  1 03:19:11 2020GBN Received 7, Sending ACK 7
-Sun Nov  1 03:19:11 2020GBN Received 8, Sending ACK 8
-Sun Nov  1 03:19:11 2020GBN Received 9, Sending ACK 9
-Sun Nov  1 03:19:11 2020GBN Received 10, Sending ACK 10
-Sun Nov  1 03:19:11 2020GBN Received 11, Sending ACK 11
-Sun Nov  1 03:19:11 2020GBN Received 12, Sending ACK 12
-Sun Nov  1 03:19:11 2020GBN Received 13, Sending ACK 13
-Sun Nov  1 03:19:11 2020GBN Received 14, Sending ACK 14
-Sun Nov  1 03:19:11 2020GBN Received 15, Sending ACK 15
-Sun Nov  1 03:19:11 2020GBN Received 16, Sending ACK 16
-Sun Nov  1 03:19:11 2020GBN Received 17, Sending ACK 17
-Sun Nov  1 03:19:11 2020GBN Received 18, Sending ACK 18
-Sun Nov  1 03:19:11 2020GBN Received 19, Sending ACK 19
-Sun Nov  1 03:19:11 2020GBN Received 20, Sending ACK 20
-Sun Nov  1 03:19:11 2020GBN Received 21, Sending ACK 21
-Sun Nov  1 03:19:11 2020GBN Received 22, Sending ACK 22
-Sun Nov  1 03:19:11 2020GBN Received 23, Sending ACK 23
-Sun Nov  1 03:19:11 2020GBN Received 24, Sending ACK 24
-Sun Nov  1 03:19:11 2020GBN Received 25, Sending ACK 25
-Sun Nov  1 03:19:11 2020GBN Received 26, Sending ACK 26
-Sun Nov  1 03:19:11 2020GBN Received 27, Sending ACK 27
-Sun Nov  1 03:19:11 2020GBN Received 29, Sending ACK 28
-Sun Nov  1 03:19:11 2020GBN Received 30, Sending ACK 28
-Sun Nov  1 03:19:11 2020GBN Received 31, Sending ACK 28
-Sun Nov  1 03:19:11 2020GBN Received 32, Sending ACK 28
-Sun Nov  1 03:19:11 2020GBN Received 33, Sending ACK 28
-Sun Nov  1 03:19:11 2020GBN Received 34, Sending ACK 28
-Sun Nov  1 03:19:11 2020GBN Received 35, Sending ACK 28
-Sun Nov  1 03:19:11 2020GBN Received 36, Sending ACK 28
-Sun Nov  1 03:19:11 2020GBN Received 37, Sending ACK 28
-Sun Nov  1 03:19:12 2020GBN Received 28, Sending ACK 28
-Sun Nov  1 03:19:12 2020GBN Received 29, Sending ACK 29
-Sun Nov  1 03:19:12 2020GBN Received 31, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 32, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 33, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 34, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 35, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 36, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 37, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 38, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 39, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 31, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 32, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 33, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 34, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 35, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 36, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 37, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 38, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 39, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 30, Sending ACK 30
-Sun Nov  1 03:19:12 2020GBN Received 31, Sending ACK 31
-Sun Nov  1 03:19:12 2020GBN Received 32, Sending ACK 32
-Sun Nov  1 03:19:12 2020GBN Received 34, Sending ACK 33
-Sun Nov  1 03:19:12 2020GBN Received 35, Sending ACK 33
-Sun Nov  1 03:19:12 2020GBN Received 36, Sending ACK 33
-Sun Nov  1 03:19:12 2020GBN Received 38, Sending ACK 33
-Sun Nov  1 03:19:12 2020GBN Received 40, Sending ACK 33
-Sun Nov  1 03:19:12 2020GBN Received 41, Sending ACK 33
-Sun Nov  1 03:19:12 2020GBN Received 42, Sending ACK 33
-Sun Nov  1 03:19:12 2020GBN Received 33, Sending ACK 33
-Sun Nov  1 03:19:12 2020GBN Received 34, Sending ACK 34
-Sun Nov  1 03:19:12 2020GBN Received 35, Sending ACK 35
-Sun Nov  1 03:19:12 2020GBN Received 36, Sending ACK 36
-Sun Nov  1 03:19:12 2020GBN Received 37, Sending ACK 37
-Sun Nov  1 03:19:12 2020GBN Received 38, Sending ACK 38
-Sun Nov  1 03:19:12 2020GBN Received 39, Sending ACK 39
-Sun Nov  1 03:19:12 2020GBN Received 40, Sending ACK 40
-Sun Nov  1 03:19:12 2020GBN Received 41, Sending ACK 41
-Sun Nov  1 03:19:12 2020GBN Received 43, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 44, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 45, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 46, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 47, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 48, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 49, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 50, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 51, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 42, Sending ACK 42
-Sun Nov  1 03:19:12 2020GBN Received 43, Sending ACK 43
-Sun Nov  1 03:19:12 2020GBN Received 45, Sending ACK 44
-Sun Nov  1 03:19:12 2020GBN Received 46, Sending ACK 44
-Sun Nov  1 03:19:12 2020GBN Received 48, Sending ACK 44
-Sun Nov  1 03:19:12 2020GBN Received 49, Sending ACK 44
-Sun Nov  1 03:19:12 2020GBN Received 50, Sending ACK 44
-Sun Nov  1 03:19:12 2020GBN Received 51, Sending ACK 44
-Sun Nov  1 03:19:12 2020GBN Received 52, Sending ACK 44
-Sun Nov  1 03:19:12 2020GBN Received 53, Sending ACK 44
-Sun Nov  1 03:19:12 2020GBN Received 44, Sending ACK 44
-Sun Nov  1 03:19:12 2020GBN Received 45, Sending ACK 45
-Sun Nov  1 03:19:12 2020GBN Received 46, Sending ACK 46
-Sun Nov  1 03:19:12 2020GBN Received 47, Sending ACK 47
-Sun Nov  1 03:19:12 2020GBN Received 48, Sending ACK 48
-Sun Nov  1 03:19:12 2020GBN Received 49, Sending ACK 49
-Sun Nov  1 03:19:12 2020GBN Received 50, Sending ACK 50
-Sun Nov  1 03:19:12 2020GBN Received 51, Sending ACK 51
-Sun Nov  1 03:19:12 2020GBN Received 52, Sending ACK 52
-Sun Nov  1 03:19:12 2020GBN Received 53, Sending ACK 53
-Sun Nov  1 03:19:12 2020GBN Received 54, Sending ACK 54
-Sun Nov  1 03:19:12 2020GBN Received 55, Sending ACK 55
-Sun Nov  1 03:19:12 2020GBN Received 56, Sending ACK 56
-Sun Nov  1 03:19:12 2020GBN Received 57, Sending ACK 57
-Sun Nov  1 03:19:12 2020GBN Received 58, Sending ACK 58
-Sun Nov  1 03:19:12 2020GBN Received 59, Sending ACK 59
-Sun Nov  1 03:19:12 2020GBN Received 60, Sending ACK 60
-Sun Nov  1 03:19:12 2020GBN Received 61, Sending ACK 61
-Sun Nov  1 03:19:12 2020GBN Received 62, Sending ACK 62
-Sun Nov  1 03:19:12 2020GBN Received 63, Sending ACK 63
-Sun Nov  1 03:19:12 2020GBN Received 64, Sending ACK 64
-Sun Nov  1 03:19:12 2020GBN Received 65, Sending ACK 65
-Sun Nov  1 03:19:12 2020GBN Received 67, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 68, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 69, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 70, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 71, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 72, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 73, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 74, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 75, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 66, Sending ACK 66
-Sun Nov  1 03:19:12 2020GBN Received 67, Sending ACK 67
-Sun Nov  1 03:19:12 2020GBN Received 68, Sending ACK 68
-Sun Nov  1 03:19:12 2020GBN Received 69, Sending ACK 69
-Sun Nov  1 03:19:12 2020GBN Received 70, Sending ACK 70
-Sun Nov  1 03:19:12 2020GBN Received 71, Sending ACK 71
-Sun Nov  1 03:19:12 2020GBN Received 73, Sending ACK 72
-Sun Nov  1 03:19:12 2020GBN Received 74, Sending ACK 72
-Sun Nov  1 03:19:12 2020GBN Received 75, Sending ACK 72
-Sun Nov  1 03:19:12 2020GBN Received 76, Sending ACK 72
-Sun Nov  1 03:19:12 2020GBN Received 77, Sending ACK 72
-Sun Nov  1 03:19:12 2020GBN Received 78, Sending ACK 72
-Sun Nov  1 03:19:12 2020GBN Received 79, Sending ACK 72
-Sun Nov  1 03:19:12 2020GBN Received 80, Sending ACK 72
-Sun Nov  1 03:19:12 2020GBN Received 81, Sending ACK 72
+2020-11-01 17:00:33.206177 [RDT 3.0] Received 0, Sending ACK 0
+2020-11-01 17:00:33.314200 [RDT 3.0] Received 1, Sending ACK 1
+2020-11-01 17:00:33.433227 [RDT 3.0] Received 1, Sending ACK 2
+2020-11-01 17:00:33.641283 [RDT 3.0] Received 1, Sending ACK 2
+2020-11-01 17:00:33.743305 [RDT 3.0] Received 2, Sending ACK 2
+2020-11-01 17:00:33.831316 [RDT 3.0] Received 3, Sending ACK 3
+2020-11-01 17:00:33.912335 [RDT 3.0] Received 4, Sending ACK 4
+2020-11-01 17:00:34.020359 [RDT 3.0] Received 5, Sending ACK 5
+2020-11-01 17:00:34.103378 [RDT 3.0] Received 6, Sending ACK 6
+2020-11-01 17:01:02.657613 [GoBackN] Received 0, Sending ACK 0
+2020-11-01 17:01:02.658614 [GoBackN] Received 1, Sending ACK 1
+2020-11-01 17:01:02.660614 [GoBackN] Received 2, Sending ACK 2
+2020-11-01 17:01:02.661614 [GoBackN] Received 3, Sending ACK 3
+2020-11-01 17:01:02.662615 [GoBackN] Received 4, Sending ACK 4
+2020-11-01 17:01:02.663615 [GoBackN] Received 6, Sending ACK 5
+2020-11-01 17:01:02.665615 [GoBackN] Received 7, Sending ACK 5
+2020-11-01 17:01:02.666615 [GoBackN] Received 8, Sending ACK 5
+2020-11-01 17:01:02.667615 [GoBackN] Received 9, Sending ACK 5
+2020-11-01 17:01:02.766081 [GoBackN] Received 10, Sending ACK 5
+2020-11-01 17:01:02.767638 [GoBackN] Received 11, Sending ACK 5
+2020-11-01 17:01:02.768638 [GoBackN] Received 12, Sending ACK 5
+2020-11-01 17:01:02.769638 [GoBackN] Received 13, Sending ACK 5
+2020-11-01 17:01:02.770639 [GoBackN] Received 14, Sending ACK 5
+2020-11-01 17:01:02.957681 [GoBackN] Received 5, Sending ACK 5
+2020-11-01 17:01:02.958681 [GoBackN] Received 6, Sending ACK 6
+2020-11-01 17:01:02.959681 [GoBackN] Received 7, Sending ACK 7
+2020-11-01 17:01:02.960681 [GoBackN] Received 8, Sending ACK 8
+2020-11-01 17:01:02.961682 [GoBackN] Received 9, Sending ACK 9
+2020-11-01 17:01:02.962682 [GoBackN] Received 10, Sending ACK 10
+2020-11-01 17:01:02.963682 [GoBackN] Received 11, Sending ACK 11
+2020-11-01 17:01:02.964683 [GoBackN] Received 12, Sending ACK 12
+2020-11-01 17:01:02.965683 [GoBackN] Received 13, Sending ACK 13
+2020-11-01 17:01:02.966683 [GoBackN] Received 14, Sending ACK 14
+2020-11-01 17:01:03.047701 [GoBackN] Received 15, Sending ACK 15
+2020-11-01 17:01:03.048701 [GoBackN] Received 16, Sending ACK 16
+2020-11-01 17:01:03.050702 [GoBackN] Received 17, Sending ACK 17
+2020-11-01 17:01:03.051702 [GoBackN] Received 18, Sending ACK 18
+2020-11-01 17:01:03.051702 [GoBackN] Received 19, Sending ACK 19
+2020-11-01 17:01:03.053702 [GoBackN] Received 20, Sending ACK 20
+2020-11-01 17:01:03.054703 [GoBackN] Received 21, Sending ACK 21
+2020-11-01 17:01:03.055703 [GoBackN] Received 22, Sending ACK 22
+2020-11-01 17:01:03.057704 [GoBackN] Received 23, Sending ACK 23
+2020-11-01 17:01:03.058704 [GoBackN] Received 24, Sending ACK 24
+2020-11-01 17:01:03.162727 [GoBackN] Received 25, Sending ACK 25
+2020-11-01 17:01:03.163727 [GoBackN] Received 26, Sending ACK 26
+2020-11-01 17:01:03.164728 [GoBackN] Received 27, Sending ACK 27
+2020-11-01 17:01:03.165727 [GoBackN] Received 28, Sending ACK 28
+2020-11-01 17:01:03.165727 [GoBackN] Received 29, Sending ACK 29
+2020-11-01 17:01:03.167728 [GoBackN] Received 30, Sending ACK 30
+2020-11-01 17:01:03.169728 [GoBackN] Received 31, Sending ACK 31
+2020-11-01 17:01:03.170728 [GoBackN] Received 32, Sending ACK 32
+2020-11-01 17:01:03.171729 [GoBackN] Received 33, Sending ACK 33
+2020-11-01 17:01:03.172729 [GoBackN] Received 34, Sending ACK 34
+2020-11-01 17:01:03.252747 [GoBackN] Received 35, Sending ACK 35
+2020-11-01 17:01:03.253748 [GoBackN] Received 36, Sending ACK 36
+2020-11-01 17:01:03.254748 [GoBackN] Received 37, Sending ACK 37
+2020-11-01 17:01:03.255748 [GoBackN] Received 38, Sending ACK 38
+2020-11-01 17:01:03.255748 [GoBackN] Received 39, Sending ACK 39
+2020-11-01 17:01:03.256748 [GoBackN] Received 40, Sending ACK 40
+2020-11-01 17:01:03.257748 [GoBackN] Received 41, Sending ACK 41
+2020-11-01 17:01:03.258749 [GoBackN] Received 42, Sending ACK 42
+2020-11-01 17:01:03.259749 [GoBackN] Received 43, Sending ACK 43
+2020-11-01 17:01:03.260749 [GoBackN] Received 44, Sending ACK 44
+2020-11-01 17:01:03.352770 [GoBackN] Received 45, Sending ACK 45
+2020-11-01 17:01:03.352770 [GoBackN] Received 46, Sending ACK 46
+2020-11-01 17:01:03.353770 [GoBackN] Received 47, Sending ACK 47
+2020-11-01 17:01:03.354771 [GoBackN] Received 48, Sending ACK 48
+2020-11-01 17:01:03.354771 [GoBackN] Received 49, Sending ACK 49
+2020-11-01 17:01:03.356771 [GoBackN] Received 50, Sending ACK 50
+2020-11-01 17:01:03.356771 [GoBackN] Received 51, Sending ACK 51
+2020-11-01 17:01:03.357771 [GoBackN] Received 52, Sending ACK 52
+2020-11-01 17:01:03.358771 [GoBackN] Received 53, Sending ACK 53
+2020-11-01 17:01:03.359772 [GoBackN] Received 54, Sending ACK 54
+2020-11-01 17:01:03.449792 [GoBackN] Received 55, Sending ACK 55
+2020-11-01 17:01:03.450792 [GoBackN] Received 56, Sending ACK 56
+2020-11-01 17:01:03.451792 [GoBackN] Received 57, Sending ACK 57
+2020-11-01 17:01:03.452793 [GoBackN] Received 58, Sending ACK 58
+2020-11-01 17:01:03.453792 [GoBackN] Received 59, Sending ACK 59
+2020-11-01 17:01:03.454793 [GoBackN] Received 60, Sending ACK 60
+2020-11-01 17:01:03.455793 [GoBackN] Received 62, Sending ACK 61
+2020-11-01 17:01:03.456793 [GoBackN] Received 63, Sending ACK 61
+2020-11-01 17:01:03.565818 [GoBackN] Received 65, Sending ACK 61
+2020-11-01 17:01:03.566818 [GoBackN] Received 66, Sending ACK 61
+2020-11-01 17:01:03.567818 [GoBackN] Received 67, Sending ACK 61
+2020-11-01 17:01:03.569818 [GoBackN] Received 70, Sending ACK 61
