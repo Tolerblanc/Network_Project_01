@@ -14,13 +14,15 @@ RECEIVER_PORT = 4242
 SENDER_ADDR = "127.0.0.1"
 SENDER_PORT = 2424
 TIMEOUT_INTERVAL = 0.1  # default
-WINDOW_SIZE = 10  # sender window size (G&B, SR)
-MAXIMUM_TIME = 1  # max execute time
+WINDOW_SIZE = 25  # sender window size (G&B, SR)
+MAXIMUM_TIME = 10  # max execute time
+TIME_LIMITER = time.time() + MAXIMUM_TIME  # max time threshold
 
 # thread acrossing resources
 base = 0
 mutex = _thread.allocate_lock()
 send_timer = utils.Timer(TIMEOUT_INTERVAL)
+acked = [False for _ in range(WINDOW_SIZE)]
 
 
 def rdt3_send(sock):
@@ -30,7 +32,6 @@ def rdt3_send(sock):
     """
     global base, mutex, send_timer
 
-    time_limiter = time.time() + MAXIMUM_TIME
     # log file input
     try:
         log = open("sendlog.txt", 'a')
@@ -43,13 +44,14 @@ def rdt3_send(sock):
 
     _thread.start_new_thread(ack_receive, (sock,))
 
-    while time.time() <= time_limiter:
+    while time.time() <= TIME_LIMITER:
         mutex.acquire()
         print('Sending seq : ', next_seq_num)
         log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Sending sequence : ' + str(next_seq_num) + '\n')
         pack = utils.make_packet(next_seq_num)
         utils.send(pack, sock, (RECEIVER_ADDR, RECEIVER_PORT))
         next_seq_num += 1
+        #next_seq_num = 1 - next_seq_num
 
         if not send_timer.isOngoing():
             send_timer.start()
@@ -70,6 +72,7 @@ def rdt3_send(sock):
 
     utils.send(utils.make_packet(-1), sock, (RECEIVER_ADDR, RECEIVER_PORT))
     log.close()
+    _thread.exit()
 
 
 def gbn_send(sock):
@@ -79,7 +82,6 @@ def gbn_send(sock):
     """
     global base, mutex, send_timer
 
-    time_limiter = time.time() + MAXIMUM_TIME
     # log file input
     try:
         log = open("sendlog.txt", 'a')
@@ -90,9 +92,9 @@ def gbn_send(sock):
     next_seq_num = 0
     base = 0
 
-    _thread.start_new_thread(ack_receive, (sock,))
+    _thread.start_new_thread(ack_receive, (sock, ))
 
-    while time.time() <= time_limiter:
+    while time.time() <= TIME_LIMITER:
         mutex.acquire()
 
         while next_seq_num < base + WINDOW_SIZE:
@@ -117,13 +119,11 @@ def gbn_send(sock):
             log.write(str(datetime.datetime.now()) + ' [GoBackN] Timeout : ' + str(next_seq_num) + '\n')
             send_timer.reset()
             next_seq_num = base
-        else:
-            print('Shifting window')
-            log.write(str(datetime.datetime.now()) + ' [GoBackN] Shifting window\n')
         mutex.release()
 
     utils.send(utils.make_packet(-1), sock, (RECEIVER_ADDR, RECEIVER_PORT))
     log.close()
+    _thread.exit()
 
 
 def sr_send(sock):
@@ -131,7 +131,63 @@ def sr_send(sock):
     send function in Selective Repeat protocol
     :param sock: python socket object
     """
-    pass
+    global base, mutex, send_timer, acked
+
+    # log file input
+    try:
+        log = open("sendlog.txt", 'a')
+    except IOError:
+        print('cannot open recvlog.txt')
+        return
+
+    next_seq_num = 0
+    base = 0
+
+    _thread.start_new_thread(sr_ack_receive, (sock, ))
+
+    while time.time() <= TIME_LIMITER:
+        mutex.acquire()
+        print(acked)
+        while next_seq_num < len(acked):
+            print('nextseq = ', next_seq_num)
+            if acked[next_seq_num]:
+                print('duplicated')
+                next_seq_num += 1
+                continue
+            print('Sending seq : ', next_seq_num)
+            log.write(str(datetime.datetime.now()) + ' [SelRep] Sending sequence : ' + str(next_seq_num) + '\n')
+            pack = utils.make_packet(next_seq_num)
+            utils.send(pack, sock, (RECEIVER_ADDR, RECEIVER_PORT))
+            next_seq_num += 1
+
+        if not send_timer.isOngoing():
+            send_timer.start()
+
+        while send_timer.isOngoing() and not send_timer.chk_timeout():
+            mutex.release()
+            sleeper = random.uniform(0.08, 0.12)
+            time.sleep(sleeper)
+            # print('Sleep : ', sleeper, 'ms')
+            mutex.acquire()
+
+        if send_timer.chk_timeout():
+            print('Timeout')
+            log.write(str(datetime.datetime.now()) + ' [SelRep] Timeout : ' + str(next_seq_num) + '\n')
+            send_timer.reset()
+            next_seq_num = base
+
+        if not False in acked:
+            acked += [False for _ in range(WINDOW_SIZE)]
+        else:
+            for i in range(len(acked)):
+                if not acked[i]:
+                    next_seq_num = i
+                    break
+        mutex.release()
+
+    utils.send(utils.make_packet(-1), sock, (RECEIVER_ADDR, RECEIVER_PORT))
+    log.close()
+    _thread.exit()
 
 
 def ack_receive(sock):
@@ -152,6 +208,29 @@ def ack_receive(sock):
             send_timer.reset()
             mutex.release()
 
+def sr_ack_receive(sock):
+    """
+    selective-repeat ack receiver
+    :param sock: python socket object
+    """
+    global base, mutex, send_timer, acked
+    while True:
+        pack, _ = utils.recv(sock)
+        ack = utils.extract_packet(pack)
+
+        print('Got ACK : ', ack)
+        acked[ack] = True
+        if acked[base]:
+            mutex.acquire()
+            base = ack + 1
+            print('Base updated ', base)
+            send_timer.reset()
+            mutex.release()
+
+        for ack in acked[base:]:
+            if not ack:
+                base = acked.index(ack)
+                break
 
 # Main Function
 if __name__ == '__main__':

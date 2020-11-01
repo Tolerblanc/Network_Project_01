@@ -46,11 +46,17 @@ def send(packet, sock, addr):
     :param packet: packet to send
     :param sock: python socket object
     :param addr: (Address, Port)tuple
+    :return sent successfully
     """
     if random.random() > LOSS_PROB:
         sock.sendto(packet, addr)
+        return True
+    elif packet == b'\xff\xff\xff\xff':
+        sock.sendto(packet, addr)
+        return True
     else:
         print('!!!packet loss!!!')
+        return False
 
 def recv(sock):
     pack, addr = sock.recvfrom(1024)
