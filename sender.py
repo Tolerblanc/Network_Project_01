@@ -36,7 +36,7 @@ def rdt3_send(sock):
     try:
         log = open("sendlog.txt", 'a')
     except IOError:
-        print('cannot open recvlog.txt')
+        print('cannot open sendlog.txt')
         return
 
     next_seq_num = 0
