@@ -5,7 +5,7 @@ Author   : HyunJun KIM (2019204054)
 """
 
 from socket import *
-from sender import WINDOW_SIZE, TIMEOUT_THRESHOLD, MAXIMUM_TIME
+from sender import WINDOW_SIZE, TIMEOUT_THRESHOLD, MAXIMUM_TIME, RTT_MIN, RTT_MAX
 import datetime, sys
 import utils
 
@@ -151,41 +151,41 @@ def sr_receive(sock):
             else:
                 log.write(str(datetime.datetime.now()) + ' [SelRep] Received Not Expected' + str(sequence_num)
                       + ', Sending ACK ' + str(sequence_num) + '\n')
-            if sequence_num != received_pack[-1]:
-                received_pack.append(sequence_num)
-        print(received_pack)
+            received_pack.append(sequence_num)
     log.close()
     return received_pack
 
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage:: python receiver.py <protocol type : rdt3, gbn, sr")
+        print("Usage:: python receiver.py <protocol type : rdt3, gbn, sr>")
         exit()
 
     sock = socket(AF_INET, SOCK_DGRAM)
     sock.bind((RECEIVER_ADDR, RECEIVER_PORT))
     if sys.argv[1] == 'rdt3':
-        pro = 'RDT 3.0'
+        pro = 'RDT_3'
         result = rdt3_receive(sock)
     elif sys.argv[1] == 'gbn':
-        pro = 'Go-Back-N'
+        pro = 'Go_Back_N'
         result = gbn_receive(sock)
     elif sys.argv[1] == 'sr':
-        pro = 'Selective-Repeat'
+        pro = 'Selective_Repeat'
         result = sr_receive(sock)
     else:
         print("Invalid Protocol Type Input : {'rdt3', 'gbn', 'sr'}")
         exit()
     sock.close()
 
-    with open('data.txt', 'a') as f:
-        if pro == 'RDT 3.0':
-            log = pro + ' ' + str(len(result)) + ' ' + str(MAXIMUM_TIME) + 's ' \
-                  + str(utils.LOSS_PROB) + ' ' + str(TIMEOUT_THRESHOLD)
+    with open(pro + '.txt', 'a') as f:
+        if pro == 'RDT_3':
+            log = str(len(result)) + ' ' + str(MAXIMUM_TIME) + ' ' \
+                  + str(utils.LOSS_PROB) + ' ' + str(TIMEOUT_THRESHOLD) + ' ' \
+                  + '[' + str(RTT_MIN) + ',' + str(RTT_MAX) + ']'
         else:
-            log = pro + ' ' + str(len(result)) + ' ' + str(MAXIMUM_TIME) + 's ' \
-                  + str(utils.LOSS_PROB) + ' ' + str(TIMEOUT_THRESHOLD) + ' ' + str(WINDOW_SIZE)
+            log = str(len(result)) + ' ' + str(MAXIMUM_TIME) + ' ' \
+                  + str(utils.LOSS_PROB) + ' ' + str(TIMEOUT_THRESHOLD) + ' ' \
+                  + '[' + str(RTT_MIN) + ',' + str(RTT_MAX) + '] ' + str(WINDOW_SIZE)
         f.write(log + '\n')
 
     print("Log file generated at 'recvlog.txt'")

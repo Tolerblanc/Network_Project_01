@@ -13,10 +13,12 @@ RECEIVER_ADDR = "127.0.0.1"
 RECEIVER_PORT = 4242
 SENDER_ADDR = "127.0.0.1"
 SENDER_PORT = 2424
-TIMEOUT_THRESHOLD = 0.1  # default
-WINDOW_SIZE = 25  # sender window size (G&B, SR)
-MAXIMUM_TIME = 10  # max execute time
+TIMEOUT_THRESHOLD = 0.11  # default timeout value
+WINDOW_SIZE = 10  # sender window size (G&B, SR)
+MAXIMUM_TIME = 100  # max execute time
 TIME_LIMITER = time.time() + MAXIMUM_TIME  # max time threshold
+RTT_MIN = 0.8  # Minimum Round-Trip Time
+RTT_MAX = 1.2  # Maximum Round-Trip Time
 
 # thread acrossing resources
 base = 0
@@ -53,16 +55,17 @@ def rdt3_send(sock):
         else:
             log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Sending sequence : ' + str(next_seq_num) + '\n')
         next_seq_num += 1
-        #next_seq_num = 1 - next_seq_num  #default rdt 3.0
+        # next_seq_num = 1 - next_seq_num  #default rdt 3.0
 
         if not send_timer.isOngoing():
             send_timer.start()
 
         while send_timer.isOngoing() and not send_timer.chk_timeout():
             mutex.release()
-            sleeper = random.uniform(0.08, 0.12)
+            sleeper = random.uniform(RTT_MIN, RTT_MAX)
             time.sleep(sleeper)
-            # print('Sleep : ', sleeper, 'ms')
+            log.write(str(datetime.datetime.now()) + ' [RDT 3.0] RTT : Sleep ' + str(sleeper) + 's at' + str(
+                next_seq_num) + '\n')
             mutex.acquire()
 
         if send_timer.chk_timeout():
@@ -78,6 +81,7 @@ def rdt3_send(sock):
     log.close()
     _thread.exit()
     sock.close()
+
 
 def gbn_send(sock):
     """
@@ -96,7 +100,7 @@ def gbn_send(sock):
     next_seq_num = 0
     base = 0
 
-    _thread.start_new_thread(ack_receive, (sock, ))
+    _thread.start_new_thread(ack_receive, (sock,))
 
     while time.time() <= TIME_LIMITER:
         mutex.acquire()
@@ -115,9 +119,10 @@ def gbn_send(sock):
 
         while send_timer.isOngoing() and not send_timer.chk_timeout():
             mutex.release()
-            sleeper = random.uniform(0.08, 0.12)
+            sleeper = random.uniform(RTT_MIN, RTT_MAX)
             time.sleep(sleeper)
-            # print('Sleep : ', sleeper, 'ms')
+            log.write(str(datetime.datetime.now()) + ' [GoBackN] RTT : Sleep ' + str(sleeper) + 's at' + str(
+                next_seq_num) + '\n')
             mutex.acquire()
 
         if send_timer.chk_timeout():
@@ -133,6 +138,7 @@ def gbn_send(sock):
     log.close()
     _thread.exit()
     sock.close()
+
 
 def sr_send(sock):
     """
@@ -151,7 +157,7 @@ def sr_send(sock):
     next_seq_num = 0
     base = 0
 
-    _thread.start_new_thread(sr_ack_receive, (sock, ))
+    _thread.start_new_thread(sr_ack_receive, (sock,))
 
     while time.time() <= TIME_LIMITER:
         mutex.acquire()
@@ -174,9 +180,10 @@ def sr_send(sock):
 
         while send_timer.isOngoing() and not send_timer.chk_timeout():
             mutex.release()
-            sleeper = random.uniform(0.08, 0.12)
+            sleeper = random.uniform(RTT_MIN, RTT_MAX)
             time.sleep(sleeper)
-            log.write(str(datetime.datetime.now()) + ' [SelRep] RTT : Sleep ' + str(next_seq_num) + 's\n')
+            log.write(str(datetime.datetime.now()) + ' [SelRep] RTT : Sleep ' + str(sleeper) + 's at'
+                      + str(next_seq_num) + '\n')
             mutex.acquire()
 
         if send_timer.chk_timeout():
@@ -201,6 +208,7 @@ def sr_send(sock):
     _thread.exit()
     sock.close()
 
+
 def ack_receive(sock):
     """
     ack receiver
@@ -216,6 +224,7 @@ def ack_receive(sock):
             base = ack + 1
             send_timer.reset()
             mutex.release()
+
 
 def sr_ack_receive(sock):
     """
@@ -239,10 +248,11 @@ def sr_ack_receive(sock):
                 base = acked.index(ack)
                 break
 
+
 # Main Function
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage:: python sender.py <protocol type : rdt3, gbn, sr")
+        print("Usage:: python sender.py <protocol type : rdt3, gbn, sr>")
         exit()
 
     sock = socket(AF_INET, SOCK_DGRAM)
@@ -254,7 +264,5 @@ if __name__ == '__main__':
     elif sys.argv[1] == 'sr':
         sr_send(sock)
     else:
-        print("Invalid Protocol Type Input : {'rdt3', 'gbn', 'sr'}")
+        print("Invalid Protocol Type. Input one of these : {'rdt3', 'gbn', 'sr'}")
         exit()
-
-
