@@ -29,14 +29,14 @@ def rdt3_receive(sock):
     except IOError:
         print('cannot open recvlog.txt')
         return
-
+    print('working')
     while True:
         # Get next packet from sender
         pack, addr = utils.recv(sock)
         seq_num = utils.extract_packet(pack)
-        if seq_num == -1:
+        if seq_num == -1:  # check end sign
             break
-        if seq_num == expected_seq:
+        if seq_num == expected_seq:  # received expected sequence
             pack = utils.make_packet(expected_seq)
             sent = utils.send(pack, sock, addr)
             if not sent:
@@ -46,9 +46,8 @@ def rdt3_receive(sock):
                           str(seq_num) + ', Sending ACK ' + str(expected_seq) + '\n')
             received_pack.append(expected_seq)
             expected_seq += 1
-            # expected_seq = 1 - expected_seq  # origin rdt 3.0
-        else:
-            print('Not Expected Packet, Sending ACK : ', seq_num)
+            # expected_seq = 1 - expected_seq  # default rdt 3.0 => Implement these for easy viewing of logs
+        else:  # received unexpected sequence
             pack = utils.make_packet(seq_num)
             sent = utils.send(pack, sock, addr)
             if not sent:
@@ -74,14 +73,14 @@ def gbn_receive(sock):
     except IOError:
         print('cannot open recvlog.txt')
         return
-
+    print('working')
     while True:
         # Get next packet from sender
         pack, addr = utils.recv(sock)
         seq_num = utils.extract_packet(pack)
-        if seq_num == -1:
+        if seq_num == -1:  # check end sign
             break
-        if seq_num == expected_seq:
+        if seq_num == expected_seq:  # received expected sequence
             pack = utils.make_packet(expected_seq)
             sent = utils.send(pack, sock, addr)
             if not sent:
@@ -96,7 +95,7 @@ def gbn_receive(sock):
             sent = utils.send(pack, sock, addr)
             if not sent:
                 log.write(str(datetime.datetime.now()) + ' [GoBackN] ACK LOSS Occured at seq ' + str(seq_num) + '\n')
-            else:
+            else:  # received unexpected sequence
                 log.write(str(datetime.datetime.now()) + ' [GoBackN] Received Not Expected ' + str(seq_num)
                       + ', Sending ACK ' + str(expected_seq) + '\n')
 
@@ -117,14 +116,14 @@ def sr_receive(sock):
     except IOError:
         print('cannot open recvlog.txt')
         return
-
+    print('working')
     while True:
         # Get next packet from sender
         pack, addr = utils.recv(sock)
         sequence_num = utils.extract_packet(pack)
-        if sequence_num == -1:
+        if sequence_num == -1:  # check end sign
             break
-        if sequence_num == expected_seq:
+        if sequence_num == expected_seq:  # received expected sequence
             pack = utils.make_packet(sequence_num)
             sent = utils.send(pack, sock, addr)
             if not sent:
@@ -133,17 +132,17 @@ def sr_receive(sock):
             else:
                 log.write(str(datetime.datetime.now()) + ' [SelRep] Received Expected' + str(sequence_num)
                       + ', Sending ACK ' + str(sequence_num) + '\n')
-            if len(received_pack) == 0:
+            if len(received_pack) == 0:  # first packet received
                 received_pack.append(expected_seq)
                 expected_seq += 1
-            elif expected_seq < received_pack[-1]:
+            elif expected_seq < received_pack[-1]:  # unordered packet received
                 received_pack.append(expected_seq)
                 received_pack.sort()
                 expected_seq = received_pack[-1] + 1
-            else:
+            else:  # ordered packet received
                 received_pack.append(expected_seq)
                 expected_seq += 1
-        else:
+        else:  # received unexpected sequence
             pack = utils.make_packet(sequence_num)
             sent = utils.send(pack, sock, addr)
             if not sent:

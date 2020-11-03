@@ -20662,3 +20662,1079 @@
 2020-11-03 03:16:49.376500 [GoBackN] ACK LOSS Occured at seq 314
 2020-11-03 03:16:49.376500 [GoBackN] Received Not Expected 315, Sending ACK 308
 2020-11-03 03:16:49.376500 [GoBackN] Received Not Expected 316, Sending ACK 308
+2020-11-03 12:47:13.953706 [SelRep] Received Expected0, Sending ACK 0
+2020-11-03 12:47:13.953706 [SelRep] Received Expected1, Sending ACK 1
+2020-11-03 12:47:13.953706 [SelRep] Received Expected2, Sending ACK 2
+2020-11-03 12:47:13.953706 [SelRep] Received Expected3, Sending ACK 3
+2020-11-03 12:47:13.953706 [SelRep] Received Expected4, Sending ACK 4
+2020-11-03 12:47:13.954714 [SelRep] ACK LOSS Occured at seq 5
+2020-11-03 12:47:13.954714 [SelRep] Received Not Expected6, Sending ACK 6
+2020-11-03 12:47:13.954714 [SelRep] Received Not Expected7, Sending ACK 7
+2020-11-03 12:47:13.954714 [SelRep] Received Not Expected8, Sending ACK 8
+2020-11-03 12:47:13.954714 [SelRep] Received Not Expected9, Sending ACK 9
+2020-11-03 12:47:14.853771 [SelRep] Received Not Expected10, Sending ACK 10
+2020-11-03 12:47:14.853771 [SelRep] Received Not Expected11, Sending ACK 11
+2020-11-03 12:47:14.853771 [SelRep] Received Not Expected12, Sending ACK 12
+2020-11-03 12:47:14.853771 [SelRep] Received Not Expected13, Sending ACK 13
+2020-11-03 12:47:15.897018 [SelRep] Received Expected5, Sending ACK 5
+2020-11-03 12:47:15.897018 [SelRep] Received Expected14, Sending ACK 14
+2020-11-03 12:47:16.869258 [SelRep] Received Expected15, Sending ACK 15
+2020-11-03 12:47:16.869258 [SelRep] Received Expected16, Sending ACK 16
+2020-11-03 12:47:18.007594 [SelRep] Received Expected17, Sending ACK 17
+2020-11-03 12:47:18.007594 [SelRep] Received Expected18, Sending ACK 18
+2020-11-03 12:47:19.004118 [SelRep] Received Expected19, Sending ACK 19
+2020-11-03 12:47:19.004118 [SelRep] Received Expected20, Sending ACK 20
+2020-11-03 12:47:19.855653 [SelRep] ACK LOSS Occured at seq 21
+2020-11-03 12:47:21.010217 [SelRep] Received Expected21, Sending ACK 21
+2020-11-03 12:47:21.010217 [SelRep] Received Expected22, Sending ACK 22
+2020-11-03 12:47:21.841153 [SelRep] Received Expected23, Sending ACK 23
+2020-11-03 12:47:21.841153 [SelRep] Received Expected24, Sending ACK 24
+2020-11-03 12:47:22.679454 [SelRep] Received Expected25, Sending ACK 25
+2020-11-03 12:47:22.679454 [SelRep] Received Expected26, Sending ACK 26
+2020-11-03 12:47:23.672523 [SelRep] Received Expected27, Sending ACK 27
+2020-11-03 12:47:23.672523 [SelRep] ACK LOSS Occured at seq 28
+2020-11-03 12:47:24.800845 [SelRep] Received Expected28, Sending ACK 28
+2020-11-03 12:47:24.800845 [SelRep] Received Expected29, Sending ACK 29
+2020-11-03 12:47:25.825761 [SelRep] Received Expected30, Sending ACK 30
+2020-11-03 12:47:25.825761 [SelRep] Received Expected31, Sending ACK 31
+2020-11-03 12:47:26.977372 [SelRep] Received Expected32, Sending ACK 32
+2020-11-03 12:47:26.977372 [SelRep] Received Expected33, Sending ACK 33
+2020-11-03 12:47:27.852523 [SelRep] ACK LOSS Occured at seq 34
+2020-11-03 12:47:27.852523 [SelRep] Received Not Expected35, Sending ACK 35
+2020-11-03 12:47:28.665664 [SelRep] Received Expected34, Sending ACK 34
+2020-11-03 12:47:29.699380 [SelRep] Received Expected36, Sending ACK 36
+2020-11-03 12:47:30.571391 [SelRep] ACK LOSS Occured at seq 37
+2020-11-03 12:47:31.711661 [SelRep] Received Expected37, Sending ACK 37
+2020-11-03 12:47:32.826686 [SelRep] Received Expected38, Sending ACK 38
+2020-11-03 12:47:33.642290 [SelRep] ACK LOSS Occured at seq 39
+2020-11-03 12:47:35.592627 [SelRep] Received Expected39, Sending ACK 39
+2020-11-03 12:47:36.494408 [SelRep] Received Expected40, Sending ACK 40
+2020-11-03 12:47:37.586073 [SelRep] Received Expected41, Sending ACK 41
+2020-11-03 12:47:38.539411 [SelRep] Received Expected42, Sending ACK 42
+2020-11-03 12:47:40.505712 [SelRep] Received Expected43, Sending ACK 43
+2020-11-03 12:47:41.649064 [SelRep] Received Expected44, Sending ACK 44
+2020-11-03 12:47:42.524167 [SelRep] Received Expected45, Sending ACK 45
+2020-11-03 12:47:43.408894 [SelRep] Received Expected46, Sending ACK 46
+2020-11-03 12:47:44.502297 [SelRep] Received Expected47, Sending ACK 47
+2020-11-03 12:47:45.384942 [SelRep] Received Expected48, Sending ACK 48
+2020-11-03 12:47:47.203122 [SelRep] Received Expected49, Sending ACK 49
+2020-11-03 12:47:48.085254 [SelRep] ACK LOSS Occured at seq 50
+2020-11-03 12:47:49.004398 [SelRep] Received Expected50, Sending ACK 50
+2020-11-03 12:47:50.028528 [SelRep] Received Expected51, Sending ACK 51
+2020-11-03 12:47:51.037454 [SelRep] Received Expected52, Sending ACK 52
+2020-11-03 12:47:51.879089 [SelRep] ACK LOSS Occured at seq 53
+2020-11-03 12:47:52.933448 [SelRep] Received Expected53, Sending ACK 53
+2020-11-03 12:47:53.915226 [SelRep] Received Expected54, Sending ACK 54
+2020-11-03 12:47:55.554044 [SelRep] Received Expected55, Sending ACK 55
+2020-11-03 12:47:56.603690 [SelRep] Received Expected56, Sending ACK 56
+2020-11-03 12:47:57.703875 [SelRep] Received Expected57, Sending ACK 57
+2020-11-03 12:47:58.753551 [SelRep] Received Expected58, Sending ACK 58
+2020-11-03 12:47:59.587001 [SelRep] Received Expected59, Sending ACK 59
+2020-11-03 12:48:00.745449 [SelRep] Received Expected60, Sending ACK 60
+2020-11-03 12:48:01.916756 [SelRep] Received Expected61, Sending ACK 61
+2020-11-03 12:48:03.092035 [SelRep] Received Expected62, Sending ACK 62
+2020-11-03 12:48:05.054246 [SelRep] Received Expected63, Sending ACK 63
+2020-11-03 12:48:06.002106 [SelRep] ACK LOSS Occured at seq 64
+2020-11-03 12:48:07.006113 [SelRep] Received Expected64, Sending ACK 64
+2020-11-03 12:48:08.117680 [SelRep] Received Expected65, Sending ACK 65
+2020-11-03 12:48:09.154353 [SelRep] Received Expected66, Sending ACK 66
+2020-11-03 12:48:11.155215 [SelRep] Received Expected67, Sending ACK 67
+2020-11-03 12:48:12.028297 [SelRep] Received Expected68, Sending ACK 68
+2020-11-03 12:48:13.011957 [SelRep] Received Expected69, Sending ACK 69
+2020-11-03 12:48:14.052958 [SelRep] Received Expected70, Sending ACK 70
+2020-11-03 12:48:15.024778 [SelRep] Received Expected71, Sending ACK 71
+2020-11-03 12:48:16.075010 [SelRep] Received Expected72, Sending ACK 72
+2020-11-03 12:48:17.180905 [SelRep] Received Expected73, Sending ACK 73
+2020-11-03 12:48:17.991682 [SelRep] Received Expected74, Sending ACK 74
+2020-11-03 12:48:19.039617 [SelRep] Received Expected75, Sending ACK 75
+2020-11-03 12:48:19.848407 [SelRep] Received Expected76, Sending ACK 76
+2020-11-03 12:48:21.843021 [SelRep] ACK LOSS Occured at seq 77
+2020-11-03 12:48:23.040128 [SelRep] Received Expected77, Sending ACK 77
+2020-11-03 12:48:23.943662 [SelRep] Received Expected78, Sending ACK 78
+2020-11-03 12:48:25.140622 [SelRep] Received Expected79, Sending ACK 79
+2020-11-03 12:48:26.009799 [SelRep] ACK LOSS Occured at seq 80
+2020-11-03 12:48:26.982729 [SelRep] Received Expected80, Sending ACK 80
+2020-11-03 12:48:28.104086 [SelRep] Received Expected81, Sending ACK 81
+2020-11-03 12:48:29.027155 [SelRep] Received Expected82, Sending ACK 82
+2020-11-03 12:48:30.203726 [SelRep] Received Expected83, Sending ACK 83
+2020-11-03 12:48:31.247869 [SelRep] ACK LOSS Occured at seq 84
+2020-11-03 12:48:32.072973 [SelRep] Received Expected84, Sending ACK 84
+2020-11-03 12:48:33.230386 [SelRep] ACK LOSS Occured at seq 85
+2020-11-03 12:48:34.115146 [SelRep] Received Expected85, Sending ACK 85
+2020-11-03 12:48:35.132313 [SelRep] Received Expected86, Sending ACK 86
+2020-11-03 12:48:36.314691 [SelRep] Received Expected87, Sending ACK 87
+2020-11-03 12:48:38.234362 [SelRep] Received Expected88, Sending ACK 88
+2020-11-03 12:48:39.112987 [SelRep] Received Expected89, Sending ACK 89
+2020-11-03 12:48:40.249728 [SelRep] Received Expected90, Sending ACK 90
+2020-11-03 12:48:41.434407 [SelRep] Received Expected91, Sending ACK 91
+2020-11-03 12:48:42.397211 [SelRep] Received Expected92, Sending ACK 92
+2020-11-03 12:48:43.220456 [SelRep] Received Expected93, Sending ACK 93
+2020-11-03 12:48:44.148977 [SelRep] Received Expected94, Sending ACK 94
+2020-11-03 12:48:45.058388 [SelRep] Received Expected95, Sending ACK 95
+2020-11-03 12:48:46.138313 [SelRep] Received Expected96, Sending ACK 96
+2020-11-03 12:48:47.144378 [SelRep] Received Expected97, Sending ACK 97
+2020-11-03 12:48:48.099317 [SelRep] Received Expected98, Sending ACK 98
+2020-11-03 12:48:49.295835 [SelRep] Received Expected99, Sending ACK 99
+2020-11-03 12:48:50.353070 [SelRep] ACK LOSS Occured at seq 100
+2020-11-03 12:48:51.499734 [SelRep] Received Expected100, Sending ACK 100
+2020-11-03 12:48:52.483802 [SelRep] Received Expected101, Sending ACK 101
+2020-11-03 12:48:53.476609 [SelRep] Received Expected102, Sending ACK 102
+2020-11-03 12:50:32.618608 [SelRep] Received Expected0, Sending ACK 0
+2020-11-03 12:50:32.618608 [SelRep] Received Expected1, Sending ACK 1
+2020-11-03 12:50:32.618608 [SelRep] Received Expected2, Sending ACK 2
+2020-11-03 12:50:32.618608 [SelRep] Received Expected3, Sending ACK 3
+2020-11-03 12:50:32.618608 [SelRep] Received Expected4, Sending ACK 4
+2020-11-03 12:50:32.618608 [SelRep] Received Expected5, Sending ACK 5
+2020-11-03 12:50:32.618608 [SelRep] Received Expected6, Sending ACK 6
+2020-11-03 12:50:32.618608 [SelRep] Received Expected7, Sending ACK 7
+2020-11-03 12:50:32.618608 [SelRep] Received Expected8, Sending ACK 8
+2020-11-03 12:50:32.618608 [SelRep] Received Expected9, Sending ACK 9
+2020-11-03 12:50:32.718211 [SelRep] Received Expected10, Sending ACK 10
+2020-11-03 12:50:32.718211 [SelRep] Received Expected11, Sending ACK 11
+2020-11-03 12:50:32.718211 [SelRep] Received Expected12, Sending ACK 12
+2020-11-03 12:50:32.718211 [SelRep] Received Expected13, Sending ACK 13
+2020-11-03 12:50:32.718211 [SelRep] Received Expected14, Sending ACK 14
+2020-11-03 12:50:32.718211 [SelRep] ACK LOSS Occured at seq 15
+2020-11-03 12:50:32.718211 [SelRep] Received Not Expected16, Sending ACK 16
+2020-11-03 12:50:32.718211 [SelRep] Received Not Expected17, Sending ACK 17
+2020-11-03 12:50:32.718211 [SelRep] ACK LOSS Occured at seq 18
+2020-11-03 12:50:32.718211 [SelRep] Received Not Expected19, Sending ACK 19
+2020-11-03 12:50:32.812230 [SelRep] Received Expected15, Sending ACK 15
+2020-11-03 12:50:32.812230 [SelRep] Received Not Expected18, Sending ACK 18
+2020-11-03 12:50:32.812230 [SelRep] Received Expected20, Sending ACK 20
+2020-11-03 12:50:32.812230 [SelRep] Received Expected21, Sending ACK 21
+2020-11-03 12:50:32.813227 [SelRep] Received Expected22, Sending ACK 22
+2020-11-03 12:50:32.813227 [SelRep] Received Expected23, Sending ACK 23
+2020-11-03 12:50:32.813227 [SelRep] Received Expected24, Sending ACK 24
+2020-11-03 12:50:32.925576 [SelRep] Received Expected25, Sending ACK 25
+2020-11-03 12:50:32.925576 [SelRep] Received Expected26, Sending ACK 26
+2020-11-03 12:50:32.925576 [SelRep] Received Expected27, Sending ACK 27
+2020-11-03 12:50:32.925576 [SelRep] ACK LOSS Occured at seq 28
+2020-11-03 12:50:32.925576 [SelRep] Received Not Expected29, Sending ACK 29
+2020-11-03 12:50:32.926572 [SelRep] Received Not Expected30, Sending ACK 30
+2020-11-03 12:50:32.926572 [SelRep] Received Not Expected31, Sending ACK 31
+2020-11-03 12:50:33.013067 [SelRep] Received Expected28, Sending ACK 28
+2020-11-03 12:50:33.013067 [SelRep] ACK LOSS Occured at seq 32
+2020-11-03 12:50:33.013067 [SelRep] Received Not Expected33, Sending ACK 33
+2020-11-03 12:50:33.013067 [SelRep] Received Not Expected34, Sending ACK 34
+2020-11-03 12:50:33.132065 [SelRep] Received Expected32, Sending ACK 32
+2020-11-03 12:50:33.132065 [SelRep] Received Expected35, Sending ACK 35
+2020-11-03 12:50:33.240331 [SelRep] Received Expected36, Sending ACK 36
+2020-11-03 12:50:33.240331 [SelRep] ACK LOSS Occured at seq 37
+2020-11-03 12:50:33.340363 [SelRep] Received Expected37, Sending ACK 37
+2020-11-03 12:50:33.340363 [SelRep] Received Expected38, Sending ACK 38
+2020-11-03 12:50:33.452036 [SelRep] Received Expected39, Sending ACK 39
+2020-11-03 12:50:33.452036 [SelRep] Received Expected40, Sending ACK 40
+2020-11-03 12:50:33.544571 [SelRep] Received Expected41, Sending ACK 41
+2020-11-03 12:50:33.544571 [SelRep] Received Expected42, Sending ACK 42
+2020-11-03 12:50:33.639458 [SelRep] Received Expected43, Sending ACK 43
+2020-11-03 12:50:33.639458 [SelRep] Received Expected44, Sending ACK 44
+2020-11-03 12:50:33.751002 [SelRep] Received Expected45, Sending ACK 45
+2020-11-03 12:50:33.751002 [SelRep] Received Expected46, Sending ACK 46
+2020-11-03 12:50:33.834000 [SelRep] Received Expected47, Sending ACK 47
+2020-11-03 12:50:33.926901 [SelRep] ACK LOSS Occured at seq 48
+2020-11-03 12:50:33.926901 [SelRep] Received Not Expected49, Sending ACK 49
+2020-11-03 12:50:34.133414 [SelRep] Received Expected48, Sending ACK 48
+2020-11-03 12:50:34.230303 [SelRep] Received Expected50, Sending ACK 50
+2020-11-03 12:50:34.320893 [SelRep] Received Expected51, Sending ACK 51
+2020-11-03 12:50:34.433394 [SelRep] Received Expected52, Sending ACK 52
+2020-11-03 12:50:34.550221 [SelRep] Received Expected53, Sending ACK 53
+2020-11-03 12:50:34.651190 [SelRep] Received Expected54, Sending ACK 54
+2020-11-03 12:50:34.740840 [SelRep] Received Expected55, Sending ACK 55
+2020-11-03 12:50:34.825118 [SelRep] Received Expected56, Sending ACK 56
+2020-11-03 12:50:34.944874 [SelRep] Received Expected57, Sending ACK 57
+2020-11-03 12:50:35.033780 [SelRep] Received Expected58, Sending ACK 58
+2020-11-03 12:50:35.263667 [SelRep] Received Expected59, Sending ACK 59
+2020-11-03 12:50:35.376408 [SelRep] Received Expected60, Sending ACK 60
+2020-11-03 12:50:35.481546 [SelRep] Received Expected61, Sending ACK 61
+2020-11-03 12:50:35.566072 [SelRep] Received Expected62, Sending ACK 62
+2020-11-03 12:50:35.658618 [SelRep] Received Expected63, Sending ACK 63
+2020-11-03 12:50:35.744103 [SelRep] Received Expected64, Sending ACK 64
+2020-11-03 12:50:35.851373 [SelRep] Received Expected65, Sending ACK 65
+2020-11-03 12:50:35.941216 [SelRep] Received Expected66, Sending ACK 66
+2020-11-03 12:50:36.022443 [SelRep] Received Expected67, Sending ACK 67
+2020-11-03 12:50:36.436756 [SelRep] Received Expected68, Sending ACK 68
+2020-11-03 12:50:36.552853 [SelRep] Received Expected69, Sending ACK 69
+2020-11-03 12:50:36.647479 [SelRep] Received Expected70, Sending ACK 70
+2020-11-03 12:50:36.926789 [SelRep] Received Expected71, Sending ACK 71
+2020-11-03 12:50:37.014514 [SelRep] Received Expected72, Sending ACK 72
+2020-11-03 12:50:37.100165 [SelRep] Received Expected73, Sending ACK 73
+2020-11-03 12:50:37.182226 [SelRep] Received Expected74, Sending ACK 74
+2020-11-03 12:50:37.292539 [SelRep] Received Expected75, Sending ACK 75
+2020-11-03 12:50:37.507293 [SelRep] Received Expected76, Sending ACK 76
+2020-11-03 12:50:37.613421 [SelRep] Received Expected77, Sending ACK 77
+2020-11-03 12:50:37.710443 [SelRep] Received Expected78, Sending ACK 78
+2020-11-03 12:50:37.810475 [SelRep] Received Expected79, Sending ACK 79
+2020-11-03 12:50:37.911493 [SelRep] Received Expected80, Sending ACK 80
+2020-11-03 12:50:38.020185 [SelRep] Received Expected81, Sending ACK 81
+2020-11-03 12:50:38.354488 [SelRep] Received Expected82, Sending ACK 82
+2020-11-03 12:50:38.467903 [SelRep] Received Expected83, Sending ACK 83
+2020-11-03 12:50:38.582649 [SelRep] Received Expected84, Sending ACK 84
+2020-11-03 12:50:38.906715 [SelRep] Received Expected85, Sending ACK 85
+2020-11-03 12:50:39.024478 [SelRep] Received Expected86, Sending ACK 86
+2020-11-03 12:50:39.224473 [SelRep] ACK LOSS Occured at seq 87
+2020-11-03 12:50:39.430671 [SelRep] Received Expected87, Sending ACK 87
+2020-11-03 12:50:39.515058 [SelRep] Received Expected88, Sending ACK 88
+2020-11-03 12:50:39.626607 [SelRep] Received Expected89, Sending ACK 89
+2020-11-03 12:50:39.725790 [SelRep] Received Expected90, Sending ACK 90
+2020-11-03 12:50:39.833722 [SelRep] Received Expected91, Sending ACK 91
+2020-11-03 12:50:39.945478 [SelRep] Received Expected92, Sending ACK 92
+2020-11-03 12:50:40.053162 [SelRep] Received Expected93, Sending ACK 93
+2020-11-03 12:50:40.151947 [SelRep] Received Expected94, Sending ACK 94
+2020-11-03 12:50:40.244575 [SelRep] Received Expected95, Sending ACK 95
+2020-11-03 12:50:40.361273 [SelRep] Received Expected96, Sending ACK 96
+2020-11-03 12:50:40.454419 [SelRep] Received Expected97, Sending ACK 97
+2020-11-03 12:50:40.551033 [SelRep] Received Expected98, Sending ACK 98
+2020-11-03 12:50:40.638504 [SelRep] Received Expected99, Sending ACK 99
+2020-11-03 12:50:40.726936 [SelRep] Received Expected100, Sending ACK 100
+2020-11-03 12:50:40.833273 [SelRep] Received Expected101, Sending ACK 101
+2020-11-03 12:50:40.933384 [SelRep] Received Expected102, Sending ACK 102
+2020-11-03 12:50:41.041729 [SelRep] Received Expected103, Sending ACK 103
+2020-11-03 12:50:41.156427 [SelRep] ACK LOSS Occured at seq 104
+2020-11-03 12:50:41.481465 [SelRep] Received Expected104, Sending ACK 104
+2020-11-03 12:50:41.586625 [SelRep] Received Expected105, Sending ACK 105
+2020-11-03 12:50:41.820733 [SelRep] ACK LOSS Occured at seq 106
+2020-11-03 12:50:42.029466 [SelRep] Received Expected106, Sending ACK 106
+2020-11-03 12:50:42.122527 [SelRep] Received Expected107, Sending ACK 107
+2020-11-03 12:50:42.243276 [SelRep] Received Expected108, Sending ACK 108
+2020-11-03 12:50:42.364053 [SelRep] Received Expected109, Sending ACK 109
+2020-11-03 12:50:42.455779 [SelRep] Received Expected110, Sending ACK 110
+2020-11-03 12:50:42.553375 [SelRep] Received Expected111, Sending ACK 111
+2020-11-03 12:52:49.784673 [SelRep] Received Not Expected1, Sending ACK 1
+2020-11-03 12:52:49.784673 [SelRep] Received Not Expected2, Sending ACK 2
+2020-11-03 12:52:49.784673 [SelRep] Received Not Expected3, Sending ACK 3
+2020-11-03 12:52:49.784673 [SelRep] Received Not Expected4, Sending ACK 4
+2020-11-03 12:52:49.784673 [SelRep] Received Not Expected5, Sending ACK 5
+2020-11-03 12:52:49.784673 [SelRep] Received Not Expected6, Sending ACK 6
+2020-11-03 12:52:49.784673 [SelRep] Received Not Expected7, Sending ACK 7
+2020-11-03 12:52:49.784673 [SelRep] Received Not Expected8, Sending ACK 8
+2020-11-03 12:52:49.784673 [SelRep] Received Not Expected9, Sending ACK 9
+2020-11-03 12:52:50.128494 [SelRep] Received Expected0, Sending ACK 0
+2020-11-03 12:52:50.253493 [SelRep] Received Expected10, Sending ACK 10
+2020-11-03 12:52:50.376281 [SelRep] Received Expected11, Sending ACK 11
+2020-11-03 12:52:50.501294 [SelRep] Received Expected12, Sending ACK 12
+2020-11-03 12:52:50.631653 [SelRep] Received Expected13, Sending ACK 13
+2020-11-03 12:52:50.741001 [SelRep] Received Expected14, Sending ACK 14
+2020-11-03 12:52:50.866051 [SelRep] Received Expected15, Sending ACK 15
+2020-11-03 12:52:51.162962 [SelRep] Received Expected16, Sending ACK 16
+2020-11-03 12:52:51.249065 [SelRep] Received Expected17, Sending ACK 17
+2020-11-03 12:52:51.369311 [SelRep] Received Expected18, Sending ACK 18
+2020-11-03 12:52:51.458476 [SelRep] Received Expected19, Sending ACK 19
+2020-11-03 12:52:51.547835 [SelRep] Received Expected20, Sending ACK 20
+2020-11-03 12:52:51.660761 [SelRep] Received Expected21, Sending ACK 21
+2020-11-03 12:52:51.754437 [SelRep] ACK LOSS Occured at seq 22
+2020-11-03 12:52:51.979866 [SelRep] Received Expected22, Sending ACK 22
+2020-11-03 12:52:52.072547 [SelRep] Received Expected23, Sending ACK 23
+2020-11-03 12:52:52.173372 [SelRep] Received Expected24, Sending ACK 24
+2020-11-03 12:52:52.263225 [SelRep] Received Expected25, Sending ACK 25
+2020-11-03 12:52:52.372603 [SelRep] Received Expected26, Sending ACK 26
+2020-11-03 12:52:52.693465 [SelRep] Received Expected27, Sending ACK 27
+2020-11-03 12:52:52.818521 [SelRep] Received Expected28, Sending ACK 28
+2020-11-03 12:52:52.927909 [SelRep] ACK LOSS Occured at seq 29
+2020-11-03 12:52:53.146680 [SelRep] Received Expected29, Sending ACK 29
+2020-11-03 12:52:53.271693 [SelRep] Received Expected30, Sending ACK 30
+2020-11-03 12:52:53.365453 [SelRep] Received Expected31, Sending ACK 31
+2020-11-03 12:52:53.474840 [SelRep] Received Expected32, Sending ACK 32
+2020-11-03 12:52:53.599806 [SelRep] Received Expected33, Sending ACK 33
+2020-11-03 12:52:53.709223 [SelRep] Received Expected34, Sending ACK 34
+2020-11-03 12:52:53.834253 [SelRep] ACK LOSS Occured at seq 35
+2020-11-03 12:52:54.065146 [SelRep] Received Expected35, Sending ACK 35
+2020-11-03 12:52:54.158906 [SelRep] ACK LOSS Occured at seq 36
+2020-11-03 12:52:54.393292 [SelRep] Received Expected36, Sending ACK 36
+2020-11-03 12:52:54.502693 [SelRep] Received Expected37, Sending ACK 37
+2020-11-03 12:52:54.627705 [SelRep] Received Expected38, Sending ACK 38
+2020-11-03 12:52:54.737092 [SelRep] Received Expected39, Sending ACK 39
+2020-11-03 12:52:54.862106 [SelRep] Received Expected40, Sending ACK 40
+2020-11-03 12:52:55.205891 [SelRep] Received Expected41, Sending ACK 41
+2020-11-03 12:52:55.299676 [SelRep] Received Expected42, Sending ACK 42
+2020-11-03 12:52:55.393368 [SelRep] Received Expected43, Sending ACK 43
+2020-11-03 12:52:55.502799 [SelRep] ACK LOSS Occured at seq 44
+2020-11-03 12:52:55.690318 [SelRep] Received Expected44, Sending ACK 44
+2020-11-03 12:52:55.815332 [SelRep] Received Expected45, Sending ACK 45
+2020-11-03 12:52:55.940304 [SelRep] Received Expected46, Sending ACK 46
+2020-11-03 12:52:56.174700 [SelRep] Received Expected47, Sending ACK 47
+2020-11-03 12:52:56.299714 [SelRep] Received Expected48, Sending ACK 48
+2020-11-03 12:52:56.424728 [SelRep] Received Expected49, Sending ACK 49
+2020-11-03 12:52:56.534157 [SelRep] Received Expected50, Sending ACK 50
+2020-11-03 12:52:56.659171 [SelRep] Received Expected51, Sending ACK 51
+2020-11-03 12:52:56.752890 [SelRep] Received Expected52, Sending ACK 52
+2020-11-03 12:52:56.855575 [SelRep] Received Expected53, Sending ACK 53
+2020-11-03 12:52:56.971168 [SelRep] Received Expected54, Sending ACK 54
+2020-11-03 12:52:57.062140 [SelRep] Received Expected55, Sending ACK 55
+2020-11-03 12:52:57.160918 [SelRep] Received Expected56, Sending ACK 56
+2020-11-03 12:52:57.254685 [SelRep] Received Expected57, Sending ACK 57
+2020-11-03 12:52:57.504757 [SelRep] Received Expected58, Sending ACK 58
+2020-11-03 12:52:57.614098 [SelRep] Received Expected59, Sending ACK 59
+2020-11-03 12:52:57.723485 [SelRep] Received Expected60, Sending ACK 60
+2020-11-03 12:52:57.817245 [SelRep] Received Expected61, Sending ACK 61
+2020-11-03 12:52:57.910959 [SelRep] Received Expected62, Sending ACK 62
+2020-11-03 12:52:58.004719 [SelRep] Received Expected63, Sending ACK 63
+2020-11-03 12:52:58.129734 [SelRep] Received Expected64, Sending ACK 64
+2020-11-03 12:52:58.239120 [SelRep] Received Expected65, Sending ACK 65
+2020-11-03 12:52:58.364133 [SelRep] Received Expected66, Sending ACK 66
+2020-11-03 12:52:58.473549 [SelRep] Received Expected67, Sending ACK 67
+2020-11-03 12:52:58.582942 [SelRep] Received Expected68, Sending ACK 68
+2020-11-03 12:52:58.700053 [SelRep] Received Expected69, Sending ACK 69
+2020-11-03 12:52:58.809471 [SelRep] Received Expected70, Sending ACK 70
+2020-11-03 12:52:58.934453 [SelRep] Received Expected71, Sending ACK 71
+2020-11-03 12:52:59.028213 [SelRep] Received Expected72, Sending ACK 72
+2020-11-03 12:52:59.122021 [SelRep] Received Expected73, Sending ACK 73
+2020-11-03 12:52:59.434550 [SelRep] Received Expected74, Sending ACK 74
+2020-11-03 12:52:59.559567 [SelRep] Received Expected75, Sending ACK 75
+2020-11-03 12:52:59.668905 [SelRep] Received Expected76, Sending ACK 76
+2020-11-03 12:52:59.762697 [SelRep] ACK LOSS Occured at seq 77
+2020-11-03 12:53:41.024738 [SelRep] ACK LOSS Occured at seq 0
+2020-11-03 12:53:41.024738 [SelRep] Received Not Expected1, Sending ACK 1
+2020-11-03 12:53:41.024738 [SelRep] ACK LOSS Occured at seq 2
+2020-11-03 12:53:41.024738 [SelRep] Received Not Expected4, Sending ACK 4
+2020-11-03 12:53:41.024738 [SelRep] ACK LOSS Occured at seq 5
+2020-11-03 12:53:41.024738 [SelRep] Received Not Expected6, Sending ACK 6
+2020-11-03 12:53:41.024738 [SelRep] Received Not Expected7, Sending ACK 7
+2020-11-03 12:53:41.024738 [SelRep] Received Not Expected8, Sending ACK 8
+2020-11-03 12:53:41.024738 [SelRep] Received Not Expected9, Sending ACK 9
+2020-11-03 12:53:41.227904 [SelRep] ACK LOSS Occured at seq 0
+2020-11-03 12:53:41.227904 [SelRep] Received Not Expected2, Sending ACK 2
+2020-11-03 12:53:41.227904 [SelRep] Received Not Expected3, Sending ACK 3
+2020-11-03 12:53:41.227904 [SelRep] Received Not Expected5, Sending ACK 5
+2020-11-03 12:53:41.571690 [SelRep] Received Expected0, Sending ACK 0
+2020-11-03 12:53:41.681077 [SelRep] Received Expected10, Sending ACK 10
+2020-11-03 12:53:41.774838 [SelRep] Received Expected11, Sending ACK 11
+2020-11-03 12:53:41.884224 [SelRep] Received Expected12, Sending ACK 12
+2020-11-03 12:53:41.993610 [SelRep] Received Expected13, Sending ACK 13
+2020-11-03 12:53:42.097308 [SelRep] Received Expected14, Sending ACK 14
+2020-11-03 12:53:42.186803 [SelRep] Received Expected15, Sending ACK 15
+2020-11-03 12:53:42.314673 [SelRep] Received Expected16, Sending ACK 16
+2020-11-03 12:53:42.642820 [SelRep] Received Expected17, Sending ACK 17
+2020-11-03 12:53:42.736593 [SelRep] Received Expected18, Sending ACK 18
+2020-11-03 12:53:42.861606 [SelRep] Received Expected19, Sending ACK 19
+2020-11-03 12:53:42.970993 [SelRep] Received Expected20, Sending ACK 20
+2020-11-03 12:53:43.096006 [SelRep] Received Expected21, Sending ACK 21
+2020-11-03 12:53:43.205393 [SelRep] Received Expected22, Sending ACK 22
+2020-11-03 12:53:43.330407 [SelRep] Received Expected23, Sending ACK 23
+2020-11-03 12:53:43.424167 [SelRep] Received Expected24, Sending ACK 24
+2020-11-03 12:53:43.533554 [SelRep] Received Expected25, Sending ACK 25
+2020-11-03 12:53:43.627314 [SelRep] Received Expected26, Sending ACK 26
+2020-11-03 12:53:43.736699 [SelRep] Received Expected27, Sending ACK 27
+2020-11-03 12:53:43.861713 [SelRep] Received Expected28, Sending ACK 28
+2020-11-03 12:53:43.955473 [SelRep] Received Expected29, Sending ACK 29
+2020-11-03 12:53:44.049233 [SelRep] Received Expected30, Sending ACK 30
+2020-11-03 12:53:44.146553 [SelRep] Received Expected31, Sending ACK 31
+2020-11-03 12:53:44.240314 [SelRep] Received Expected32, Sending ACK 32
+2020-11-03 12:53:44.349700 [SelRep] Received Expected33, Sending ACK 33
+2020-11-03 12:53:44.443460 [SelRep] Received Expected34, Sending ACK 34
+2020-11-03 12:53:44.568473 [SelRep] Received Expected35, Sending ACK 35
+2020-11-03 12:53:44.693442 [SelRep] Received Expected36, Sending ACK 36
+2020-11-03 12:53:45.006019 [SelRep] Received Expected37, Sending ACK 37
+2020-11-03 12:53:45.131032 [SelRep] Received Expected38, Sending ACK 38
+2020-11-03 12:53:45.224793 [SelRep] Received Expected39, Sending ACK 39
+2020-11-03 12:53:45.318553 [SelRep] Received Expected40, Sending ACK 40
+2020-11-03 12:53:45.631086 [SelRep] Received Expected41, Sending ACK 41
+2020-11-03 12:53:45.724833 [SelRep] Received Expected42, Sending ACK 42
+2020-11-03 12:53:45.834232 [SelRep] Received Expected43, Sending ACK 43
+2020-11-03 12:53:45.927992 [SelRep] Received Expected44, Sending ACK 44
+2020-11-03 12:53:46.021752 [SelRep] Received Expected45, Sending ACK 45
+2020-11-03 12:53:46.146767 [SelRep] Received Expected46, Sending ACK 46
+2020-11-03 12:53:46.256153 [SelRep] Received Expected47, Sending ACK 47
+2020-11-03 12:53:46.381167 [SelRep] Received Expected48, Sending ACK 48
+2020-11-03 12:53:46.506178 [SelRep] Received Expected49, Sending ACK 49
+2020-11-03 12:53:46.599939 [SelRep] Received Expected50, Sending ACK 50
+2020-11-03 12:53:46.709325 [SelRep] Received Expected51, Sending ACK 51
+2020-11-03 12:53:46.803084 [SelRep] Received Expected52, Sending ACK 52
+2020-11-03 12:53:46.912472 [SelRep] ACK LOSS Occured at seq 53
+2020-11-03 12:53:47.115618 [SelRep] Received Expected53, Sending ACK 53
+2020-11-03 12:53:47.240631 [SelRep] Received Expected54, Sending ACK 54
+2020-11-03 12:53:47.584418 [SelRep] Received Expected55, Sending ACK 55
+2020-11-03 12:53:47.678179 [SelRep] Received Expected56, Sending ACK 56
+2020-11-03 12:53:47.787569 [SelRep] Received Expected57, Sending ACK 57
+2020-11-03 12:53:47.896951 [SelRep] Received Expected58, Sending ACK 58
+2020-11-03 12:53:47.990711 [SelRep] Received Expected59, Sending ACK 59
+2020-11-03 12:53:48.084471 [SelRep] Received Expected60, Sending ACK 60
+2020-11-03 12:53:48.209484 [SelRep] Received Expected61, Sending ACK 61
+2020-11-03 12:53:48.334497 [SelRep] Received Expected62, Sending ACK 62
+2020-11-03 12:53:48.428257 [SelRep] ACK LOSS Occured at seq 63
+2020-11-03 12:53:48.662657 [SelRep] Received Expected63, Sending ACK 63
+2020-11-03 12:53:48.772044 [SelRep] Received Expected64, Sending ACK 64
+2020-11-03 12:53:48.865804 [SelRep] Received Expected65, Sending ACK 65
+2020-11-03 12:53:48.959564 [SelRep] Received Expected66, Sending ACK 66
+2020-11-03 12:53:49.084577 [SelRep] Received Expected67, Sending ACK 67
+2020-11-03 12:53:49.428363 [SelRep] Received Expected68, Sending ACK 68
+2020-11-03 12:53:49.522111 [SelRep] Received Expected69, Sending ACK 69
+2020-11-03 12:53:49.631511 [SelRep] Received Expected70, Sending ACK 70
+2020-11-03 12:53:49.740879 [SelRep] Received Expected71, Sending ACK 71
+2020-11-03 12:53:49.865897 [SelRep] Received Expected72, Sending ACK 72
+2020-11-03 12:53:49.990923 [SelRep] Received Expected73, Sending ACK 73
+2020-11-03 12:53:50.100310 [SelRep] Received Expected74, Sending ACK 74
+2020-11-03 12:53:50.194095 [SelRep] Received Expected75, Sending ACK 75
+2020-11-03 12:53:50.303456 [SelRep] Received Expected76, Sending ACK 76
+2020-11-03 12:53:50.522230 [SelRep] Received Expected77, Sending ACK 77
+2020-11-03 12:53:50.819149 [SelRep] Received Expected78, Sending ACK 78
+2020-11-03 12:54:08.042636 [GoBackN] Received Expected 0, Sending ACK 0
+2020-11-03 12:54:08.042636 [GoBackN] Received Expected 1, Sending ACK 1
+2020-11-03 12:54:08.042636 [GoBackN] Received Expected 2, Sending ACK 2
+2020-11-03 12:54:08.042636 [GoBackN] ACK LOSS Occured at seq 3
+2020-11-03 12:54:08.042636 [GoBackN] Received Expected 4, Sending ACK 4
+2020-11-03 12:54:08.042636 [GoBackN] Received Expected 5, Sending ACK 5
+2020-11-03 12:54:08.042636 [GoBackN] Received Not Expected 7, Sending ACK 6
+2020-11-03 12:54:08.042636 [GoBackN] Received Not Expected 8, Sending ACK 6
+2020-11-03 12:54:08.042636 [GoBackN] ACK LOSS Occured at seq 9
+2020-11-03 12:54:08.136488 [GoBackN] Received Not Expected 10, Sending ACK 6
+2020-11-03 12:54:08.136488 [GoBackN] Received Not Expected 11, Sending ACK 6
+2020-11-03 12:54:08.136488 [GoBackN] Received Not Expected 12, Sending ACK 6
+2020-11-03 12:54:08.136488 [GoBackN] Received Not Expected 13, Sending ACK 6
+2020-11-03 12:54:08.136488 [GoBackN] Received Not Expected 14, Sending ACK 6
+2020-11-03 12:54:08.136488 [GoBackN] ACK LOSS Occured at seq 15
+2020-11-03 12:54:08.339590 [GoBackN] Received Expected 6, Sending ACK 6
+2020-11-03 12:54:08.339590 [GoBackN] Received Expected 7, Sending ACK 7
+2020-11-03 12:54:08.339590 [GoBackN] Received Expected 8, Sending ACK 8
+2020-11-03 12:54:08.339590 [GoBackN] Received Not Expected 10, Sending ACK 9
+2020-11-03 12:54:08.339590 [GoBackN] Received Not Expected 13, Sending ACK 9
+2020-11-03 12:54:08.339590 [GoBackN] Received Not Expected 14, Sending ACK 9
+2020-11-03 12:54:08.464603 [GoBackN] Received Not Expected 17, Sending ACK 9
+2020-11-03 12:54:08.464603 [GoBackN] Received Not Expected 18, Sending ACK 9
+2020-11-03 12:54:08.589617 [GoBackN] Received Expected 9, Sending ACK 9
+2020-11-03 12:54:08.589617 [GoBackN] Received Expected 10, Sending ACK 10
+2020-11-03 12:54:08.589617 [GoBackN] Received Not Expected 12, Sending ACK 11
+2020-11-03 12:54:08.589617 [GoBackN] Received Not Expected 13, Sending ACK 11
+2020-11-03 12:54:08.589617 [GoBackN] Received Not Expected 14, Sending ACK 11
+2020-11-03 12:54:08.589617 [GoBackN] Received Not Expected 15, Sending ACK 11
+2020-11-03 12:54:08.589617 [GoBackN] Received Not Expected 16, Sending ACK 11
+2020-11-03 12:54:08.589617 [GoBackN] Received Not Expected 17, Sending ACK 11
+2020-11-03 12:54:08.589617 [GoBackN] Received Not Expected 18, Sending ACK 11
+2020-11-03 12:54:08.714633 [GoBackN] Received Not Expected 19, Sending ACK 11
+2020-11-03 12:54:08.714633 [GoBackN] Received Not Expected 20, Sending ACK 11
+2020-11-03 12:54:08.902150 [GoBackN] Received Expected 11, Sending ACK 11
+2020-11-03 12:54:08.902150 [GoBackN] Received Expected 12, Sending ACK 12
+2020-11-03 12:54:08.902150 [GoBackN] Received Expected 13, Sending ACK 13
+2020-11-03 12:54:08.902150 [GoBackN] ACK LOSS Occured at seq 15
+2020-11-03 12:54:08.902150 [GoBackN] Received Not Expected 16, Sending ACK 14
+2020-11-03 12:54:08.902150 [GoBackN] Received Not Expected 17, Sending ACK 14
+2020-11-03 12:54:08.902150 [GoBackN] Received Not Expected 18, Sending ACK 14
+2020-11-03 12:54:08.902150 [GoBackN] Received Not Expected 19, Sending ACK 14
+2020-11-03 12:54:08.902150 [GoBackN] Received Not Expected 20, Sending ACK 14
+2020-11-03 12:54:09.011536 [GoBackN] Received Not Expected 21, Sending ACK 14
+2020-11-03 12:54:09.011536 [GoBackN] Received Not Expected 22, Sending ACK 14
+2020-11-03 12:54:09.011536 [GoBackN] Received Not Expected 23, Sending ACK 14
+2020-11-03 12:54:09.230310 [GoBackN] Received Expected 14, Sending ACK 14
+2020-11-03 12:54:09.230310 [GoBackN] Received Expected 15, Sending ACK 15
+2020-11-03 12:54:09.230310 [GoBackN] Received Expected 16, Sending ACK 16
+2020-11-03 12:54:09.230310 [GoBackN] Received Expected 17, Sending ACK 17
+2020-11-03 12:54:09.230310 [GoBackN] Received Expected 18, Sending ACK 18
+2020-11-03 12:54:09.230310 [GoBackN] Received Not Expected 20, Sending ACK 19
+2020-11-03 12:54:09.230310 [GoBackN] Received Not Expected 21, Sending ACK 19
+2020-11-03 12:54:09.230310 [GoBackN] Received Not Expected 22, Sending ACK 19
+2020-11-03 12:54:09.230310 [GoBackN] Received Not Expected 23, Sending ACK 19
+2020-11-03 12:54:09.339651 [GoBackN] Received Not Expected 24, Sending ACK 19
+2020-11-03 12:54:09.339651 [GoBackN] Received Not Expected 25, Sending ACK 19
+2020-11-03 12:54:09.339651 [GoBackN] Received Not Expected 26, Sending ACK 19
+2020-11-03 12:54:09.339651 [GoBackN] Received Not Expected 27, Sending ACK 19
+2020-11-03 12:54:09.339651 [GoBackN] Received Not Expected 28, Sending ACK 19
+2020-11-03 12:54:09.574096 [GoBackN] Received Not Expected 20, Sending ACK 19
+2020-11-03 12:54:09.574096 [GoBackN] Received Not Expected 21, Sending ACK 19
+2020-11-03 12:54:09.574096 [GoBackN] ACK LOSS Occured at seq 22
+2020-11-03 12:54:09.574096 [GoBackN] Received Not Expected 23, Sending ACK 19
+2020-11-03 12:54:09.574096 [GoBackN] Received Not Expected 24, Sending ACK 19
+2020-11-03 12:54:09.574096 [GoBackN] Received Not Expected 25, Sending ACK 19
+2020-11-03 12:54:09.574096 [GoBackN] Received Not Expected 26, Sending ACK 19
+2020-11-03 12:54:09.574096 [GoBackN] ACK LOSS Occured at seq 27
+2020-11-03 12:54:09.761615 [GoBackN] Received Expected 19, Sending ACK 19
+2020-11-03 12:54:09.761615 [GoBackN] Received Expected 20, Sending ACK 20
+2020-11-03 12:54:09.761615 [GoBackN] ACK LOSS Occured at seq 21
+2020-11-03 12:54:09.761615 [GoBackN] Received Expected 22, Sending ACK 22
+2020-11-03 12:54:09.761615 [GoBackN] Received Expected 23, Sending ACK 23
+2020-11-03 12:54:09.761615 [GoBackN] Received Expected 24, Sending ACK 24
+2020-11-03 12:54:09.761615 [GoBackN] Received Expected 25, Sending ACK 25
+2020-11-03 12:54:09.761615 [GoBackN] Received Expected 26, Sending ACK 26
+2020-11-03 12:54:09.761615 [GoBackN] Received Expected 27, Sending ACK 27
+2020-11-03 12:54:09.761615 [GoBackN] Received Expected 28, Sending ACK 28
+2020-11-03 12:54:09.855375 [GoBackN] Received Expected 29, Sending ACK 29
+2020-11-03 12:54:09.855375 [GoBackN] Received Not Expected 31, Sending ACK 30
+2020-11-03 12:54:09.855375 [GoBackN] ACK LOSS Occured at seq 32
+2020-11-03 12:54:09.855375 [GoBackN] Received Not Expected 33, Sending ACK 30
+2020-11-03 12:54:09.855375 [GoBackN] Received Not Expected 34, Sending ACK 30
+2020-11-03 12:54:09.855375 [GoBackN] Received Not Expected 35, Sending ACK 30
+2020-11-03 12:54:09.855375 [GoBackN] Received Not Expected 36, Sending ACK 30
+2020-11-03 12:54:09.855375 [GoBackN] Received Not Expected 37, Sending ACK 30
+2020-11-03 12:54:09.855375 [GoBackN] Received Not Expected 38, Sending ACK 30
+2020-11-03 12:54:09.964762 [GoBackN] Received Not Expected 39, Sending ACK 30
+2020-11-03 12:54:10.167909 [GoBackN] Received Not Expected 31, Sending ACK 30
+2020-11-03 12:54:10.167909 [GoBackN] Received Not Expected 32, Sending ACK 30
+2020-11-03 12:54:10.167909 [GoBackN] Received Not Expected 33, Sending ACK 30
+2020-11-03 12:54:10.167909 [GoBackN] ACK LOSS Occured at seq 34
+2020-11-03 12:54:10.167909 [GoBackN] Received Not Expected 35, Sending ACK 30
+2020-11-03 12:54:10.167909 [GoBackN] Received Not Expected 36, Sending ACK 30
+2020-11-03 12:54:10.167909 [GoBackN] Received Not Expected 37, Sending ACK 30
+2020-11-03 12:54:10.167909 [GoBackN] Received Not Expected 38, Sending ACK 30
+2020-11-03 12:54:10.167909 [GoBackN] Received Not Expected 39, Sending ACK 30
+2020-11-03 12:54:10.292922 [GoBackN] Received Expected 30, Sending ACK 30
+2020-11-03 12:54:10.292922 [GoBackN] Received Expected 31, Sending ACK 31
+2020-11-03 12:54:10.292922 [GoBackN] Received Expected 32, Sending ACK 32
+2020-11-03 12:54:10.292922 [GoBackN] Received Expected 33, Sending ACK 33
+2020-11-03 12:54:10.292922 [GoBackN] ACK LOSS Occured at seq 34
+2020-11-03 12:54:10.292922 [GoBackN] Received Expected 35, Sending ACK 35
+2020-11-03 12:54:10.292922 [GoBackN] Received Expected 36, Sending ACK 36
+2020-11-03 12:54:10.292922 [GoBackN] Received Expected 37, Sending ACK 37
+2020-11-03 12:54:10.292922 [GoBackN] Received Expected 38, Sending ACK 38
+2020-11-03 12:54:10.292922 [GoBackN] Received Expected 39, Sending ACK 39
+2020-11-03 12:54:10.402308 [GoBackN] Received Expected 40, Sending ACK 40
+2020-11-03 12:54:10.402308 [GoBackN] Received Expected 41, Sending ACK 41
+2020-11-03 12:54:10.402308 [GoBackN] Received Expected 42, Sending ACK 42
+2020-11-03 12:54:10.402308 [GoBackN] Received Expected 43, Sending ACK 43
+2020-11-03 12:54:10.402308 [GoBackN] Received Expected 44, Sending ACK 44
+2020-11-03 12:54:10.402308 [GoBackN] Received Expected 45, Sending ACK 45
+2020-11-03 12:54:10.402308 [GoBackN] ACK LOSS Occured at seq 46
+2020-11-03 12:54:10.402308 [GoBackN] Received Expected 47, Sending ACK 47
+2020-11-03 12:54:10.402308 [GoBackN] Received Expected 48, Sending ACK 48
+2020-11-03 12:54:10.402308 [GoBackN] Received Expected 49, Sending ACK 49
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 50, Sending ACK 50
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 51, Sending ACK 51
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 52, Sending ACK 52
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 53, Sending ACK 53
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 54, Sending ACK 54
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 55, Sending ACK 55
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 56, Sending ACK 56
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 57, Sending ACK 57
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 58, Sending ACK 58
+2020-11-03 12:54:10.527321 [GoBackN] Received Expected 59, Sending ACK 59
+2020-11-03 12:54:10.636708 [GoBackN] Received Expected 60, Sending ACK 60
+2020-11-03 12:54:10.636708 [GoBackN] Received Expected 61, Sending ACK 61
+2020-11-03 12:54:10.636708 [GoBackN] Received Expected 62, Sending ACK 62
+2020-11-03 12:54:10.636708 [GoBackN] Received Expected 63, Sending ACK 63
+2020-11-03 12:54:10.636708 [GoBackN] Received Expected 64, Sending ACK 64
+2020-11-03 12:54:10.636708 [GoBackN] Received Expected 65, Sending ACK 65
+2020-11-03 12:54:10.636708 [GoBackN] Received Expected 66, Sending ACK 66
+2020-11-03 12:54:10.636708 [GoBackN] Received Not Expected 68, Sending ACK 67
+2020-11-03 12:54:10.636708 [GoBackN] ACK LOSS Occured at seq 69
+2020-11-03 12:54:10.730468 [GoBackN] Received Not Expected 70, Sending ACK 67
+2020-11-03 12:54:10.730468 [GoBackN] Received Not Expected 73, Sending ACK 67
+2020-11-03 12:54:10.730468 [GoBackN] Received Not Expected 74, Sending ACK 67
+2020-11-03 12:54:10.730468 [GoBackN] Received Not Expected 75, Sending ACK 67
+2020-11-03 12:54:10.730468 [GoBackN] Received Not Expected 76, Sending ACK 67
+2020-11-03 12:54:10.949242 [GoBackN] Received Expected 67, Sending ACK 67
+2020-11-03 12:54:10.949242 [GoBackN] Received Expected 68, Sending ACK 68
+2020-11-03 12:54:10.949242 [GoBackN] Received Expected 69, Sending ACK 69
+2020-11-03 12:54:10.949242 [GoBackN] Received Expected 70, Sending ACK 70
+2020-11-03 12:54:10.949242 [GoBackN] Received Expected 71, Sending ACK 71
+2020-11-03 12:54:10.949242 [GoBackN] Received Expected 72, Sending ACK 72
+2020-11-03 12:54:10.949242 [GoBackN] ACK LOSS Occured at seq 74
+2020-11-03 12:54:10.949242 [GoBackN] Received Not Expected 75, Sending ACK 73
+2020-11-03 12:54:11.074255 [GoBackN] Received Not Expected 77, Sending ACK 73
+2020-11-03 12:54:11.074255 [GoBackN] ACK LOSS Occured at seq 78
+2020-11-03 12:54:11.074255 [GoBackN] Received Not Expected 79, Sending ACK 73
+2020-11-03 12:54:11.074255 [GoBackN] Received Not Expected 80, Sending ACK 73
+2020-11-03 12:54:11.074255 [GoBackN] Received Not Expected 81, Sending ACK 73
+2020-11-03 12:54:11.074255 [GoBackN] Received Not Expected 82, Sending ACK 73
+2020-11-03 12:54:11.293028 [GoBackN] Received Expected 73, Sending ACK 73
+2020-11-03 12:54:11.293028 [GoBackN] Received Not Expected 75, Sending ACK 74
+2020-11-03 12:54:11.293028 [GoBackN] Received Not Expected 76, Sending ACK 74
+2020-11-03 12:54:11.293028 [GoBackN] Received Not Expected 77, Sending ACK 74
+2020-11-03 12:54:11.293028 [GoBackN] Received Not Expected 78, Sending ACK 74
+2020-11-03 12:54:11.293028 [GoBackN] Received Not Expected 79, Sending ACK 74
+2020-11-03 12:54:11.293028 [GoBackN] Received Not Expected 80, Sending ACK 74
+2020-11-03 12:54:11.293028 [GoBackN] ACK LOSS Occured at seq 81
+2020-11-03 12:54:11.293028 [GoBackN] Received Not Expected 82, Sending ACK 74
+2020-11-03 12:54:11.402374 [GoBackN] Received Not Expected 83, Sending ACK 74
+2020-11-03 12:54:11.621188 [GoBackN] Received Expected 74, Sending ACK 74
+2020-11-03 12:54:11.621188 [GoBackN] Received Expected 75, Sending ACK 75
+2020-11-03 12:54:11.621188 [GoBackN] Received Expected 76, Sending ACK 76
+2020-11-03 12:54:11.621188 [GoBackN] Received Expected 77, Sending ACK 77
+2020-11-03 12:54:11.621188 [GoBackN] Received Expected 78, Sending ACK 78
+2020-11-03 12:54:11.621188 [GoBackN] Received Expected 79, Sending ACK 79
+2020-11-03 12:54:11.621188 [GoBackN] Received Expected 80, Sending ACK 80
+2020-11-03 12:54:11.621188 [GoBackN] Received Not Expected 82, Sending ACK 81
+2020-11-03 12:54:11.621188 [GoBackN] Received Not Expected 83, Sending ACK 81
+2020-11-03 12:54:11.746201 [GoBackN] Received Not Expected 84, Sending ACK 81
+2020-11-03 12:54:11.746201 [GoBackN] Received Not Expected 85, Sending ACK 81
+2020-11-03 12:54:11.746201 [GoBackN] Received Not Expected 86, Sending ACK 81
+2020-11-03 12:54:11.746201 [GoBackN] Received Not Expected 89, Sending ACK 81
+2020-11-03 12:54:11.746201 [GoBackN] Received Not Expected 90, Sending ACK 81
+2020-11-03 12:54:11.871215 [GoBackN] Received Expected 81, Sending ACK 81
+2020-11-03 12:54:11.871215 [GoBackN] Received Expected 82, Sending ACK 82
+2020-11-03 12:54:11.871215 [GoBackN] Received Not Expected 84, Sending ACK 83
+2020-11-03 12:54:11.871215 [GoBackN] Received Not Expected 85, Sending ACK 83
+2020-11-03 12:54:11.871215 [GoBackN] Received Not Expected 86, Sending ACK 83
+2020-11-03 12:54:11.871215 [GoBackN] Received Not Expected 88, Sending ACK 83
+2020-11-03 12:54:11.871215 [GoBackN] ACK LOSS Occured at seq 89
+2020-11-03 12:54:11.980600 [GoBackN] Received Not Expected 91, Sending ACK 83
+2020-11-03 12:54:12.199374 [GoBackN] Received Expected 83, Sending ACK 83
+2020-11-03 12:54:12.199374 [GoBackN] Received Expected 84, Sending ACK 84
+2020-11-03 12:54:12.199374 [GoBackN] Received Expected 85, Sending ACK 85
+2020-11-03 12:54:12.199374 [GoBackN] Received Expected 86, Sending ACK 86
+2020-11-03 12:54:12.199374 [GoBackN] Received Expected 87, Sending ACK 87
+2020-11-03 12:54:12.199374 [GoBackN] ACK LOSS Occured at seq 88
+2020-11-03 12:54:12.199374 [GoBackN] Received Expected 89, Sending ACK 89
+2020-11-03 12:54:12.199374 [GoBackN] ACK LOSS Occured at seq 90
+2020-11-03 12:54:12.199374 [GoBackN] Received Expected 91, Sending ACK 91
+2020-11-03 12:54:12.199374 [GoBackN] Received Expected 92, Sending ACK 92
+2020-11-03 12:54:12.324388 [GoBackN] Received Expected 93, Sending ACK 93
+2020-11-03 12:54:12.324388 [GoBackN] Received Expected 94, Sending ACK 94
+2020-11-03 12:54:12.324388 [GoBackN] Received Expected 95, Sending ACK 95
+2020-11-03 12:54:12.324388 [GoBackN] Received Expected 96, Sending ACK 96
+2020-11-03 12:54:12.324388 [GoBackN] Received Expected 97, Sending ACK 97
+2020-11-03 12:54:12.324388 [GoBackN] Received Expected 98, Sending ACK 98
+2020-11-03 12:54:12.324388 [GoBackN] Received Expected 99, Sending ACK 99
+2020-11-03 12:54:12.324388 [GoBackN] Received Expected 100, Sending ACK 100
+2020-11-03 12:54:12.324388 [GoBackN] Received Not Expected 102, Sending ACK 101
+2020-11-03 12:54:12.433762 [GoBackN] Received Not Expected 103, Sending ACK 101
+2020-11-03 12:54:12.433762 [GoBackN] Received Not Expected 104, Sending ACK 101
+2020-11-03 12:54:12.433762 [GoBackN] Received Not Expected 105, Sending ACK 101
+2020-11-03 12:54:12.433762 [GoBackN] ACK LOSS Occured at seq 106
+2020-11-03 12:54:12.433762 [GoBackN] Received Not Expected 108, Sending ACK 101
+2020-11-03 12:54:12.433762 [GoBackN] Received Not Expected 109, Sending ACK 101
+2020-11-03 12:54:12.433762 [GoBackN] Received Not Expected 110, Sending ACK 101
+2020-11-03 12:54:12.652547 [GoBackN] Received Expected 101, Sending ACK 101
+2020-11-03 12:54:12.652547 [GoBackN] Received Expected 102, Sending ACK 102
+2020-11-03 12:54:12.652547 [GoBackN] Received Expected 103, Sending ACK 103
+2020-11-03 12:54:12.652547 [GoBackN] Received Not Expected 105, Sending ACK 104
+2020-11-03 12:54:12.652547 [GoBackN] Received Not Expected 106, Sending ACK 104
+2020-11-03 12:54:12.652547 [GoBackN] Received Not Expected 107, Sending ACK 104
+2020-11-03 12:54:12.652547 [GoBackN] Received Not Expected 108, Sending ACK 104
+2020-11-03 12:54:12.652547 [GoBackN] Received Not Expected 109, Sending ACK 104
+2020-11-03 12:54:12.652547 [GoBackN] Received Not Expected 110, Sending ACK 104
+2020-11-03 12:54:12.761936 [GoBackN] Received Not Expected 111, Sending ACK 104
+2020-11-03 12:54:12.761936 [GoBackN] Received Not Expected 112, Sending ACK 104
+2020-11-03 12:54:12.761936 [GoBackN] Received Not Expected 113, Sending ACK 104
+2020-11-03 12:54:12.949453 [GoBackN] Received Expected 104, Sending ACK 104
+2020-11-03 12:54:12.949453 [GoBackN] Received Expected 105, Sending ACK 105
+2020-11-03 12:54:12.949453 [GoBackN] Received Expected 106, Sending ACK 106
+2020-11-03 12:54:12.949453 [GoBackN] Received Expected 107, Sending ACK 107
+2020-11-03 12:54:12.949453 [GoBackN] Received Expected 108, Sending ACK 108
+2020-11-03 12:54:12.949453 [GoBackN] Received Expected 109, Sending ACK 109
+2020-11-03 12:54:12.949453 [GoBackN] Received Expected 110, Sending ACK 110
+2020-11-03 12:54:12.949453 [GoBackN] ACK LOSS Occured at seq 111
+2020-11-03 12:54:12.949453 [GoBackN] Received Expected 112, Sending ACK 112
+2020-11-03 12:54:12.949453 [GoBackN] Received Expected 113, Sending ACK 113
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 114, Sending ACK 114
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 115, Sending ACK 115
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 116, Sending ACK 116
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 117, Sending ACK 117
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 118, Sending ACK 118
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 119, Sending ACK 119
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 120, Sending ACK 120
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 121, Sending ACK 121
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 122, Sending ACK 122
+2020-11-03 12:54:13.058840 [GoBackN] Received Expected 123, Sending ACK 123
+2020-11-03 12:54:13.152600 [GoBackN] Received Expected 124, Sending ACK 124
+2020-11-03 12:54:13.152600 [GoBackN] Received Expected 125, Sending ACK 125
+2020-11-03 12:54:13.152600 [GoBackN] Received Expected 126, Sending ACK 126
+2020-11-03 12:54:13.152600 [GoBackN] Received Expected 127, Sending ACK 127
+2020-11-03 12:54:13.152600 [GoBackN] Received Expected 128, Sending ACK 128
+2020-11-03 12:54:13.152600 [GoBackN] Received Expected 129, Sending ACK 129
+2020-11-03 12:54:13.152600 [GoBackN] Received Expected 130, Sending ACK 130
+2020-11-03 12:54:13.152600 [GoBackN] Received Expected 131, Sending ACK 131
+2020-11-03 12:54:13.152600 [GoBackN] Received Not Expected 133, Sending ACK 132
+2020-11-03 12:54:13.261987 [GoBackN] Received Not Expected 134, Sending ACK 132
+2020-11-03 12:54:13.261987 [GoBackN] Received Not Expected 135, Sending ACK 132
+2020-11-03 12:54:13.261987 [GoBackN] ACK LOSS Occured at seq 136
+2020-11-03 12:54:13.261987 [GoBackN] Received Not Expected 137, Sending ACK 132
+2020-11-03 12:54:13.261987 [GoBackN] Received Not Expected 138, Sending ACK 132
+2020-11-03 12:54:13.261987 [GoBackN] Received Not Expected 140, Sending ACK 132
+2020-11-03 12:54:13.261987 [GoBackN] Received Not Expected 141, Sending ACK 132
+2020-11-03 12:54:13.480759 [GoBackN] Received Not Expected 133, Sending ACK 132
+2020-11-03 12:54:13.480759 [GoBackN] Received Not Expected 134, Sending ACK 132
+2020-11-03 12:54:13.480759 [GoBackN] Received Not Expected 135, Sending ACK 132
+2020-11-03 12:54:13.480759 [GoBackN] Received Not Expected 136, Sending ACK 132
+2020-11-03 12:54:13.480759 [GoBackN] Received Not Expected 137, Sending ACK 132
+2020-11-03 12:54:13.480759 [GoBackN] ACK LOSS Occured at seq 138
+2020-11-03 12:54:13.480759 [GoBackN] Received Not Expected 139, Sending ACK 132
+2020-11-03 12:54:13.480759 [GoBackN] Received Not Expected 141, Sending ACK 132
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 132, Sending ACK 132
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 133, Sending ACK 133
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 134, Sending ACK 134
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 135, Sending ACK 135
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 136, Sending ACK 136
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 137, Sending ACK 137
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 138, Sending ACK 138
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 139, Sending ACK 139
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 140, Sending ACK 140
+2020-11-03 12:54:13.683907 [GoBackN] Received Expected 141, Sending ACK 141
+2020-11-03 12:54:13.777666 [GoBackN] Received Expected 142, Sending ACK 142
+2020-11-03 12:54:13.777666 [GoBackN] Received Expected 143, Sending ACK 143
+2020-11-03 12:54:13.777666 [GoBackN] Received Expected 144, Sending ACK 144
+2020-11-03 12:54:13.777666 [GoBackN] Received Expected 145, Sending ACK 145
+2020-11-03 12:54:13.777666 [GoBackN] Received Expected 146, Sending ACK 146
+2020-11-03 12:54:13.777666 [GoBackN] Received Expected 147, Sending ACK 147
+2020-11-03 12:54:13.777666 [GoBackN] Received Expected 148, Sending ACK 148
+2020-11-03 12:54:13.777666 [GoBackN] ACK LOSS Occured at seq 149
+2020-11-03 12:54:13.777666 [GoBackN] Received Expected 150, Sending ACK 150
+2020-11-03 12:54:13.777666 [GoBackN] Received Expected 151, Sending ACK 151
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 152, Sending ACK 152
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 153, Sending ACK 153
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 154, Sending ACK 154
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 155, Sending ACK 155
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 156, Sending ACK 156
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 157, Sending ACK 157
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 158, Sending ACK 158
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 159, Sending ACK 159
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 160, Sending ACK 160
+2020-11-03 12:54:13.871426 [GoBackN] Received Expected 161, Sending ACK 161
+2020-11-03 12:54:13.996440 [GoBackN] Received Expected 162, Sending ACK 162
+2020-11-03 12:54:13.996440 [GoBackN] Received Expected 163, Sending ACK 163
+2020-11-03 12:54:13.996440 [GoBackN] ACK LOSS Occured at seq 164
+2020-11-03 12:54:13.996440 [GoBackN] Received Expected 165, Sending ACK 165
+2020-11-03 12:54:13.996440 [GoBackN] Received Expected 166, Sending ACK 166
+2020-11-03 12:54:13.996440 [GoBackN] Received Expected 167, Sending ACK 167
+2020-11-03 12:54:13.996440 [GoBackN] Received Expected 168, Sending ACK 168
+2020-11-03 12:54:13.996440 [GoBackN] Received Not Expected 170, Sending ACK 169
+2020-11-03 12:54:13.996440 [GoBackN] Received Not Expected 171, Sending ACK 169
+2020-11-03 12:54:14.121455 [GoBackN] Received Not Expected 172, Sending ACK 169
+2020-11-03 12:54:14.121455 [GoBackN] Received Not Expected 173, Sending ACK 169
+2020-11-03 12:54:14.121455 [GoBackN] Received Not Expected 174, Sending ACK 169
+2020-11-03 12:54:14.121455 [GoBackN] Received Not Expected 175, Sending ACK 169
+2020-11-03 12:54:14.121455 [GoBackN] Received Not Expected 176, Sending ACK 169
+2020-11-03 12:54:14.121455 [GoBackN] Received Not Expected 177, Sending ACK 169
+2020-11-03 12:54:14.121455 [GoBackN] Received Not Expected 178, Sending ACK 169
+2020-11-03 12:54:14.246425 [GoBackN] Received Expected 169, Sending ACK 169
+2020-11-03 12:54:14.246425 [GoBackN] ACK LOSS Occured at seq 170
+2020-11-03 12:54:14.246425 [GoBackN] Received Expected 171, Sending ACK 171
+2020-11-03 12:54:14.246425 [GoBackN] Received Expected 172, Sending ACK 172
+2020-11-03 12:54:14.246425 [GoBackN] Received Expected 173, Sending ACK 173
+2020-11-03 12:54:14.246425 [GoBackN] Received Expected 174, Sending ACK 174
+2020-11-03 12:54:14.246425 [GoBackN] Received Expected 175, Sending ACK 175
+2020-11-03 12:54:14.246425 [GoBackN] Received Expected 176, Sending ACK 176
+2020-11-03 12:54:14.246425 [GoBackN] ACK LOSS Occured at seq 177
+2020-11-03 12:54:14.246425 [GoBackN] ACK LOSS Occured at seq 178
+2020-11-03 12:54:14.340226 [GoBackN] ACK LOSS Occured at seq 179
+2020-11-03 12:54:14.340226 [GoBackN] Received Not Expected 181, Sending ACK 180
+2020-11-03 12:54:14.340226 [GoBackN] Received Not Expected 182, Sending ACK 180
+2020-11-03 12:54:14.340226 [GoBackN] Received Not Expected 183, Sending ACK 180
+2020-11-03 12:54:14.340226 [GoBackN] Received Not Expected 185, Sending ACK 180
+2020-11-03 12:54:14.340226 [GoBackN] Received Not Expected 186, Sending ACK 180
+2020-11-03 12:54:14.465195 [GoBackN] Received Not Expected 187, Sending ACK 180
+2020-11-03 12:54:14.465195 [GoBackN] Received Not Expected 188, Sending ACK 180
+2020-11-03 12:54:14.684013 [GoBackN] Received Expected 180, Sending ACK 180
+2020-11-03 12:54:14.684013 [GoBackN] Received Expected 181, Sending ACK 181
+2020-11-03 12:54:14.684013 [GoBackN] ACK LOSS Occured at seq 182
+2020-11-03 12:54:14.684013 [GoBackN] Received Expected 183, Sending ACK 183
+2020-11-03 12:54:14.684013 [GoBackN] Received Expected 184, Sending ACK 184
+2020-11-03 12:54:14.684013 [GoBackN] Received Not Expected 186, Sending ACK 185
+2020-11-03 12:54:14.684013 [GoBackN] ACK LOSS Occured at seq 187
+2020-11-03 12:54:14.684013 [GoBackN] Received Not Expected 188, Sending ACK 185
+2020-11-03 12:54:14.684013 [GoBackN] Received Not Expected 189, Sending ACK 185
+2020-11-03 12:54:14.793400 [GoBackN] ACK LOSS Occured at seq 191
+2020-11-03 12:54:14.793400 [GoBackN] Received Not Expected 192, Sending ACK 185
+2020-11-03 12:54:14.793400 [GoBackN] Received Not Expected 193, Sending ACK 185
+2020-11-03 12:54:14.793400 [GoBackN] Received Not Expected 194, Sending ACK 185
+2020-11-03 12:54:14.918412 [GoBackN] Received Not Expected 186, Sending ACK 185
+2020-11-03 12:54:14.918412 [GoBackN] Received Not Expected 187, Sending ACK 185
+2020-11-03 12:54:14.918412 [GoBackN] Received Not Expected 188, Sending ACK 185
+2020-11-03 12:54:14.918412 [GoBackN] Received Not Expected 189, Sending ACK 185
+2020-11-03 12:54:14.918412 [GoBackN] Received Not Expected 190, Sending ACK 185
+2020-11-03 12:54:14.918412 [GoBackN] Received Not Expected 191, Sending ACK 185
+2020-11-03 12:54:14.918412 [GoBackN] Received Not Expected 192, Sending ACK 185
+2020-11-03 12:54:14.918412 [GoBackN] Received Not Expected 193, Sending ACK 185
+2020-11-03 12:54:14.918412 [GoBackN] Received Not Expected 194, Sending ACK 185
+2020-11-03 12:54:15.137185 [GoBackN] Received Expected 185, Sending ACK 185
+2020-11-03 12:54:15.137185 [GoBackN] Received Expected 186, Sending ACK 186
+2020-11-03 12:54:15.137185 [GoBackN] Received Expected 187, Sending ACK 187
+2020-11-03 12:54:15.137185 [GoBackN] Received Expected 188, Sending ACK 188
+2020-11-03 12:54:15.137185 [GoBackN] ACK LOSS Occured at seq 189
+2020-11-03 12:54:15.137185 [GoBackN] Received Expected 190, Sending ACK 190
+2020-11-03 12:54:15.137185 [GoBackN] ACK LOSS Occured at seq 191
+2020-11-03 12:54:15.137185 [GoBackN] Received Expected 192, Sending ACK 192
+2020-11-03 12:54:15.137185 [GoBackN] Received Expected 193, Sending ACK 193
+2020-11-03 12:54:15.137185 [GoBackN] Received Expected 194, Sending ACK 194
+2020-11-03 12:54:15.230945 [GoBackN] Received Expected 195, Sending ACK 195
+2020-11-03 12:54:15.230945 [GoBackN] Received Expected 196, Sending ACK 196
+2020-11-03 12:54:15.230945 [GoBackN] Received Expected 197, Sending ACK 197
+2020-11-03 12:54:15.230945 [GoBackN] Received Expected 198, Sending ACK 198
+2020-11-03 12:54:15.230945 [GoBackN] Received Expected 199, Sending ACK 199
+2020-11-03 12:54:15.230945 [GoBackN] Received Expected 200, Sending ACK 200
+2020-11-03 12:54:15.230945 [GoBackN] Received Expected 201, Sending ACK 201
+2020-11-03 12:54:15.230945 [GoBackN] Received Expected 202, Sending ACK 202
+2020-11-03 12:54:15.340332 [GoBackN] Received Not Expected 205, Sending ACK 203
+2020-11-03 12:54:15.340332 [GoBackN] Received Not Expected 207, Sending ACK 203
+2020-11-03 12:54:15.340332 [GoBackN] Received Not Expected 208, Sending ACK 203
+2020-11-03 12:54:15.340332 [GoBackN] Received Not Expected 209, Sending ACK 203
+2020-11-03 12:54:15.340332 [GoBackN] Received Not Expected 210, Sending ACK 203
+2020-11-03 12:54:15.340332 [GoBackN] Received Not Expected 211, Sending ACK 203
+2020-11-03 12:54:15.340332 [GoBackN] Received Not Expected 212, Sending ACK 203
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 203, Sending ACK 203
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 204, Sending ACK 204
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 205, Sending ACK 205
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 206, Sending ACK 206
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 207, Sending ACK 207
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 208, Sending ACK 208
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 209, Sending ACK 209
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 210, Sending ACK 210
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 211, Sending ACK 211
+2020-11-03 12:54:15.527812 [GoBackN] Received Expected 212, Sending ACK 212
+2020-11-03 12:54:15.637239 [GoBackN] Received Expected 213, Sending ACK 213
+2020-11-03 12:54:15.637239 [GoBackN] Received Expected 214, Sending ACK 214
+2020-11-03 12:54:15.637239 [GoBackN] Received Expected 215, Sending ACK 215
+2020-11-03 12:54:15.637239 [GoBackN] Received Expected 216, Sending ACK 216
+2020-11-03 12:54:15.637239 [GoBackN] ACK LOSS Occured at seq 217
+2020-11-03 12:54:15.637239 [GoBackN] Received Expected 218, Sending ACK 218
+2020-11-03 12:54:15.637239 [GoBackN] Received Expected 219, Sending ACK 219
+2020-11-03 12:54:15.637239 [GoBackN] Received Expected 220, Sending ACK 220
+2020-11-03 12:54:15.637239 [GoBackN] ACK LOSS Occured at seq 221
+2020-11-03 12:54:15.637239 [GoBackN] Received Expected 222, Sending ACK 222
+2020-11-03 12:54:15.746627 [GoBackN] Received Expected 223, Sending ACK 223
+2020-11-03 12:54:15.746627 [GoBackN] Received Not Expected 225, Sending ACK 224
+2020-11-03 12:54:15.746627 [GoBackN] Received Not Expected 226, Sending ACK 224
+2020-11-03 12:54:15.746627 [GoBackN] Received Not Expected 229, Sending ACK 224
+2020-11-03 12:54:15.746627 [GoBackN] ACK LOSS Occured at seq 230
+2020-11-03 12:54:15.746627 [GoBackN] Received Not Expected 231, Sending ACK 224
+2020-11-03 12:54:15.746627 [GoBackN] Received Not Expected 232, Sending ACK 224
+2020-11-03 12:54:15.856012 [GoBackN] Received Not Expected 233, Sending ACK 224
+2020-11-03 12:54:16.059158 [GoBackN] Received Expected 224, Sending ACK 224
+2020-11-03 12:54:16.059158 [GoBackN] Received Expected 225, Sending ACK 225
+2020-11-03 12:54:16.059158 [GoBackN] Received Expected 226, Sending ACK 226
+2020-11-03 12:54:16.059158 [GoBackN] Received Expected 227, Sending ACK 227
+2020-11-03 12:54:16.059158 [GoBackN] Received Expected 228, Sending ACK 228
+2020-11-03 12:54:16.059158 [GoBackN] Received Expected 229, Sending ACK 229
+2020-11-03 12:54:16.059158 [GoBackN] Received Not Expected 231, Sending ACK 230
+2020-11-03 12:54:16.059158 [GoBackN] Received Not Expected 232, Sending ACK 230
+2020-11-03 12:54:16.059158 [GoBackN] Received Not Expected 233, Sending ACK 230
+2020-11-03 12:54:16.184173 [GoBackN] Received Not Expected 234, Sending ACK 230
+2020-11-03 12:54:16.184173 [GoBackN] Received Not Expected 235, Sending ACK 230
+2020-11-03 12:54:16.184173 [GoBackN] Received Not Expected 236, Sending ACK 230
+2020-11-03 12:54:16.184173 [GoBackN] Received Not Expected 237, Sending ACK 230
+2020-11-03 12:54:16.184173 [GoBackN] Received Not Expected 238, Sending ACK 230
+2020-11-03 12:54:16.184173 [GoBackN] ACK LOSS Occured at seq 239
+2020-11-03 12:54:16.387318 [GoBackN] Received Expected 230, Sending ACK 230
+2020-11-03 12:54:16.387318 [GoBackN] Received Expected 231, Sending ACK 231
+2020-11-03 12:54:16.387318 [GoBackN] Received Expected 232, Sending ACK 232
+2020-11-03 12:54:16.387318 [GoBackN] Received Expected 233, Sending ACK 233
+2020-11-03 12:54:16.387318 [GoBackN] Received Expected 234, Sending ACK 234
+2020-11-03 12:54:16.387318 [GoBackN] ACK LOSS Occured at seq 235
+2020-11-03 12:54:16.387318 [GoBackN] Received Expected 236, Sending ACK 236
+2020-11-03 12:54:16.387318 [GoBackN] Received Expected 237, Sending ACK 237
+2020-11-03 12:54:16.387318 [GoBackN] Received Expected 238, Sending ACK 238
+2020-11-03 12:54:16.387318 [GoBackN] Received Expected 239, Sending ACK 239
+2020-11-03 12:54:16.481080 [GoBackN] Received Expected 240, Sending ACK 240
+2020-11-03 12:54:16.481080 [GoBackN] Received Expected 241, Sending ACK 241
+2020-11-03 12:54:16.481080 [GoBackN] Received Expected 242, Sending ACK 242
+2020-11-03 12:54:16.481080 [GoBackN] Received Expected 243, Sending ACK 243
+2020-11-03 12:54:16.481080 [GoBackN] ACK LOSS Occured at seq 244
+2020-11-03 12:54:16.481080 [GoBackN] Received Not Expected 246, Sending ACK 245
+2020-11-03 12:54:16.481080 [GoBackN] ACK LOSS Occured at seq 247
+2020-11-03 12:54:16.481080 [GoBackN] Received Not Expected 248, Sending ACK 245
+2020-11-03 12:54:16.481080 [GoBackN] Received Not Expected 249, Sending ACK 245
+2020-11-03 12:54:16.574837 [GoBackN] Received Not Expected 250, Sending ACK 245
+2020-11-03 12:54:16.574837 [GoBackN] Received Not Expected 251, Sending ACK 245
+2020-11-03 12:54:16.574837 [GoBackN] Received Not Expected 252, Sending ACK 245
+2020-11-03 12:54:16.574837 [GoBackN] Received Not Expected 253, Sending ACK 245
+2020-11-03 12:54:16.574837 [GoBackN] Received Not Expected 254, Sending ACK 245
+2020-11-03 12:54:16.793612 [GoBackN] Received Expected 245, Sending ACK 245
+2020-11-03 12:54:16.793612 [GoBackN] Received Not Expected 247, Sending ACK 246
+2020-11-03 12:54:16.793612 [GoBackN] Received Not Expected 248, Sending ACK 246
+2020-11-03 12:54:16.793612 [GoBackN] Received Not Expected 249, Sending ACK 246
+2020-11-03 12:54:16.793612 [GoBackN] Received Not Expected 250, Sending ACK 246
+2020-11-03 12:54:16.793612 [GoBackN] Received Not Expected 251, Sending ACK 246
+2020-11-03 12:54:16.793612 [GoBackN] Received Not Expected 252, Sending ACK 246
+2020-11-03 12:54:16.793612 [GoBackN] ACK LOSS Occured at seq 253
+2020-11-03 12:54:16.793612 [GoBackN] Received Not Expected 254, Sending ACK 246
+2020-11-03 12:54:17.137490 [GoBackN] Received Expected 246, Sending ACK 246
+2020-11-03 12:54:17.137490 [GoBackN] ACK LOSS Occured at seq 248
+2020-11-03 12:54:17.137490 [GoBackN] Received Not Expected 249, Sending ACK 247
+2020-11-03 12:54:17.137490 [GoBackN] Received Not Expected 250, Sending ACK 247
+2020-11-03 12:54:17.137490 [GoBackN] Received Not Expected 251, Sending ACK 247
+2020-11-03 12:54:17.137490 [GoBackN] ACK LOSS Occured at seq 252
+2020-11-03 12:54:17.137490 [GoBackN] Received Not Expected 253, Sending ACK 247
+2020-11-03 12:54:17.137490 [GoBackN] Received Not Expected 254, Sending ACK 247
+2020-11-03 12:54:17.137490 [GoBackN] Received Not Expected 255, Sending ACK 247
+2020-11-03 12:54:17.231250 [GoBackN] Received Not Expected 256, Sending ACK 247
+2020-11-03 12:54:17.450023 [GoBackN] Received Expected 247, Sending ACK 247
+2020-11-03 12:54:17.450023 [GoBackN] Received Expected 248, Sending ACK 248
+2020-11-03 12:54:17.450023 [GoBackN] Received Expected 249, Sending ACK 249
+2020-11-03 12:54:17.450023 [GoBackN] Received Expected 250, Sending ACK 250
+2020-11-03 12:54:17.450023 [GoBackN] Received Expected 251, Sending ACK 251
+2020-11-03 12:54:17.450023 [GoBackN] Received Expected 252, Sending ACK 252
+2020-11-03 12:54:17.450023 [GoBackN] Received Expected 253, Sending ACK 253
+2020-11-03 12:54:17.450023 [GoBackN] Received Expected 254, Sending ACK 254
+2020-11-03 12:54:17.450023 [GoBackN] Received Not Expected 256, Sending ACK 255
+2020-11-03 12:54:17.559413 [GoBackN] Received Not Expected 257, Sending ACK 255
+2020-11-03 12:54:17.559413 [GoBackN] Received Not Expected 258, Sending ACK 255
+2020-11-03 12:54:17.559413 [GoBackN] Received Not Expected 260, Sending ACK 255
+2020-11-03 12:54:17.559413 [GoBackN] Received Not Expected 261, Sending ACK 255
+2020-11-03 12:54:17.559413 [GoBackN] Received Not Expected 263, Sending ACK 255
+2020-11-03 12:54:17.559413 [GoBackN] Received Not Expected 264, Sending ACK 255
+2020-11-03 12:54:17.746930 [GoBackN] Received Expected 255, Sending ACK 255
+2020-11-03 12:54:17.746930 [GoBackN] Received Not Expected 257, Sending ACK 256
+2020-11-03 12:54:17.746930 [GoBackN] Received Not Expected 258, Sending ACK 256
+2020-11-03 12:54:17.746930 [GoBackN] Received Not Expected 259, Sending ACK 256
+2020-11-03 12:54:17.746930 [GoBackN] ACK LOSS Occured at seq 260
+2020-11-03 12:54:17.746930 [GoBackN] Received Not Expected 261, Sending ACK 256
+2020-11-03 12:54:17.746930 [GoBackN] Received Not Expected 262, Sending ACK 256
+2020-11-03 12:54:17.746930 [GoBackN] Received Not Expected 263, Sending ACK 256
+2020-11-03 12:54:17.746930 [GoBackN] Received Not Expected 264, Sending ACK 256
+2020-11-03 12:54:17.840690 [GoBackN] Received Not Expected 265, Sending ACK 256
+2020-11-03 12:55:14.940893 [SelRep] Received Expected0, Sending ACK 0
+2020-11-03 12:55:14.940893 [SelRep] Received Expected1, Sending ACK 1
+2020-11-03 12:55:14.940893 [SelRep] Received Expected2, Sending ACK 2
+2020-11-03 12:55:14.940893 [SelRep] Received Expected3, Sending ACK 3
+2020-11-03 12:55:14.940893 [SelRep] Received Expected4, Sending ACK 4
+2020-11-03 12:55:14.940893 [SelRep] Received Expected5, Sending ACK 5
+2020-11-03 12:55:14.940893 [SelRep] Received Expected6, Sending ACK 6
+2020-11-03 12:55:14.940893 [SelRep] Received Expected7, Sending ACK 7
+2020-11-03 12:55:14.940893 [SelRep] Received Expected8, Sending ACK 8
+2020-11-03 12:55:15.050308 [SelRep] Received Not Expected10, Sending ACK 10
+2020-11-03 12:55:15.050308 [SelRep] Received Not Expected11, Sending ACK 11
+2020-11-03 12:55:15.050308 [SelRep] Received Not Expected12, Sending ACK 12
+2020-11-03 12:55:15.050308 [SelRep] Received Not Expected13, Sending ACK 13
+2020-11-03 12:55:15.050308 [SelRep] Received Not Expected14, Sending ACK 14
+2020-11-03 12:55:15.050308 [SelRep] Received Not Expected15, Sending ACK 15
+2020-11-03 12:55:15.050308 [SelRep] Received Not Expected17, Sending ACK 17
+2020-11-03 12:55:15.050308 [SelRep] Received Not Expected18, Sending ACK 18
+2020-11-03 12:55:15.175293 [SelRep] Received Expected9, Sending ACK 9
+2020-11-03 12:55:15.175293 [SelRep] Received Not Expected16, Sending ACK 16
+2020-11-03 12:55:15.284707 [SelRep] Received Expected19, Sending ACK 19
+2020-11-03 12:55:15.284707 [SelRep] Received Expected20, Sending ACK 20
+2020-11-03 12:55:15.378439 [SelRep] Received Expected21, Sending ACK 21
+2020-11-03 12:55:15.378439 [SelRep] ACK LOSS Occured at seq 22
+2020-11-03 12:55:15.487825 [SelRep] Received Expected22, Sending ACK 22
+2020-11-03 12:55:15.487825 [SelRep] Received Expected23, Sending ACK 23
+2020-11-03 12:55:15.581614 [SelRep] Received Expected24, Sending ACK 24
+2020-11-03 12:55:15.581614 [SelRep] Received Expected25, Sending ACK 25
+2020-11-03 12:55:15.706599 [SelRep] Received Expected26, Sending ACK 26
+2020-11-03 12:55:15.706599 [SelRep] Received Expected27, Sending ACK 27
+2020-11-03 12:55:15.800359 [SelRep] Received Expected28, Sending ACK 28
+2020-11-03 12:55:15.800359 [SelRep] Received Expected29, Sending ACK 29
+2020-11-03 12:55:15.909745 [SelRep] Received Expected30, Sending ACK 30
+2020-11-03 12:55:15.909745 [SelRep] Received Expected31, Sending ACK 31
+2020-11-03 12:55:16.019160 [SelRep] Received Not Expected33, Sending ACK 33
+2020-11-03 12:55:16.222279 [SelRep] ACK LOSS Occured at seq 32
+2020-11-03 12:55:16.456703 [SelRep] Received Expected32, Sending ACK 32
+2020-11-03 12:55:16.566095 [SelRep] Received Expected34, Sending ACK 34
+2020-11-03 12:55:16.691078 [SelRep] ACK LOSS Occured at seq 35
+2020-11-03 12:55:16.894272 [SelRep] Received Expected35, Sending ACK 35
+2020-11-03 12:55:16.988033 [SelRep] Received Expected36, Sending ACK 36
+2020-11-03 12:55:17.113046 [SelRep] Received Expected37, Sending ACK 37
+2020-11-03 12:55:17.206805 [SelRep] ACK LOSS Occured at seq 38
+2020-11-03 12:55:17.394325 [SelRep] Received Expected38, Sending ACK 38
+2020-11-03 12:55:17.488087 [SelRep] Received Expected39, Sending ACK 39
+2020-11-03 12:55:17.597471 [SelRep] Received Expected40, Sending ACK 40
+2020-11-03 12:55:17.706858 [SelRep] ACK LOSS Occured at seq 41
+2020-11-03 12:55:17.910004 [SelRep] Received Expected41, Sending ACK 41
+2020-11-03 12:55:18.035018 [SelRep] Received Expected42, Sending ACK 42
+2020-11-03 12:55:18.128778 [SelRep] Received Expected43, Sending ACK 43
+2020-11-03 12:55:18.238165 [SelRep] Received Expected44, Sending ACK 44
+2020-11-03 12:55:18.347551 [SelRep] Received Expected45, Sending ACK 45
+2020-11-03 12:55:18.472565 [SelRep] Received Expected46, Sending ACK 46
+2020-11-03 12:55:18.597578 [SelRep] Received Expected47, Sending ACK 47
+2020-11-03 12:55:18.706965 [SelRep] Received Expected48, Sending ACK 48
+2020-11-03 12:55:18.800724 [SelRep] Received Expected49, Sending ACK 49
+2020-11-03 12:55:18.894485 [SelRep] Received Expected50, Sending ACK 50
+2020-11-03 12:55:19.238271 [SelRep] Received Expected51, Sending ACK 51
+2020-11-03 12:55:19.347657 [SelRep] Received Expected52, Sending ACK 52
+2020-11-03 12:55:19.457044 [SelRep] Received Expected53, Sending ACK 53
+2020-11-03 12:55:19.582057 [SelRep] Received Expected54, Sending ACK 54
+2020-11-03 12:55:19.707071 [SelRep] Received Expected55, Sending ACK 55
+2020-11-03 12:55:19.832084 [SelRep] Received Expected56, Sending ACK 56
+2020-11-03 12:55:19.941470 [SelRep] Received Expected57, Sending ACK 57
+2020-11-03 12:55:20.050857 [SelRep] Received Expected58, Sending ACK 58
+2020-11-03 12:55:20.175871 [SelRep] Received Expected59, Sending ACK 59
+2020-11-03 12:55:20.285257 [SelRep] Received Expected60, Sending ACK 60
+2020-11-03 12:55:20.394643 [SelRep] Received Expected61, Sending ACK 61
+2020-11-03 12:55:20.519657 [SelRep] Received Expected62, Sending ACK 62
+2020-11-03 12:55:20.629043 [SelRep] Received Expected63, Sending ACK 63
+2020-11-03 12:55:20.738430 [SelRep] Received Expected64, Sending ACK 64
+2020-11-03 12:55:20.847817 [SelRep] Received Expected65, Sending ACK 65
+2020-11-03 12:55:20.957202 [SelRep] Received Expected66, Sending ACK 66
+2020-11-03 12:55:21.066590 [SelRep] Received Expected67, Sending ACK 67
+2020-11-03 12:55:21.175976 [SelRep] Received Expected68, Sending ACK 68
+2020-11-03 12:55:21.300945 [SelRep] Received Expected69, Sending ACK 69
+2020-11-03 12:55:21.426002 [SelRep] Received Expected70, Sending ACK 70
+2020-11-03 12:55:21.535389 [SelRep] Received Expected71, Sending ACK 71
+2020-11-03 12:55:21.644776 [SelRep] Received Expected72, Sending ACK 72
+2020-11-03 12:55:21.738535 [SelRep] Received Expected73, Sending ACK 73
+2020-11-03 12:55:21.957308 [SelRep] Received Expected74, Sending ACK 74
+2020-11-03 12:55:22.066695 [SelRep] Received Expected75, Sending ACK 75
+2020-11-03 12:55:22.163310 [SelRep] Received Expected76, Sending ACK 76
+2020-11-03 12:55:22.288324 [SelRep] Received Expected77, Sending ACK 77
+2020-11-03 12:55:22.397710 [SelRep] Received Expected78, Sending ACK 78
+2020-11-03 12:55:22.507098 [SelRep] Received Expected79, Sending ACK 79
+2020-11-03 12:55:22.819630 [SelRep] Received Expected80, Sending ACK 80
+2020-11-03 12:55:22.929017 [SelRep] Received Expected81, Sending ACK 81
+2020-11-03 12:55:23.054031 [SelRep] Received Expected82, Sending ACK 82
+2020-11-03 12:55:23.147790 [SelRep] Received Expected83, Sending ACK 83
+2020-11-03 12:55:23.272787 [SelRep] Received Expected84, Sending ACK 84
+2020-11-03 12:55:23.397817 [SelRep] Received Expected85, Sending ACK 85
+2020-11-03 12:55:23.507204 [SelRep] Received Expected86, Sending ACK 86
+2020-11-03 12:55:23.616589 [SelRep] Received Expected87, Sending ACK 87
+2020-11-03 12:55:23.725976 [SelRep] Received Expected88, Sending ACK 88
+2020-11-03 12:55:23.850991 [SelRep] Received Expected89, Sending ACK 89
+2020-11-03 12:55:23.944752 [SelRep] Received Expected90, Sending ACK 90
+2020-11-03 12:55:24.069762 [SelRep] Received Expected91, Sending ACK 91
+2020-11-03 12:55:24.179150 [SelRep] ACK LOSS Occured at seq 92
+2020-11-03 12:55:24.382297 [SelRep] Received Expected92, Sending ACK 92
+2020-11-03 12:55:24.507309 [SelRep] Received Expected93, Sending ACK 93
+2020-11-03 13:04:58.603830 [RDT 3.0] Received Expected 0, Sending ACK 0
+2020-11-03 13:04:58.713211 [RDT 3.0] Received Expected 1, Sending ACK 1
+2020-11-03 13:04:58.838200 [RDT 3.0] ACK LOSS Occured at seq 2
+2020-11-03 13:04:58.963394 [RDT 3.0] ACK LOSS Occured at seq 2
+2020-11-03 13:04:59.150869 [RDT 3.0] Received Not Expected2, Sending ACK 3
+2020-11-03 13:04:59.275927 [RDT 3.0] Received Expected 3, Sending ACK 3
+2020-11-03 13:04:59.371138 [RDT 3.0] Received Expected 4, Sending ACK 4
+2020-11-03 13:04:59.490666 [RDT 3.0] Received Expected 5, Sending ACK 5
+2020-11-03 13:04:59.584458 [RDT 3.0] Received Expected 6, Sending ACK 6
+2020-11-03 13:04:59.678228 [RDT 3.0] Received Expected 7, Sending ACK 7
+2020-11-03 13:04:59.771988 [RDT 3.0] Received Expected 8, Sending ACK 8
+2020-11-03 13:04:59.896959 [RDT 3.0] Received Expected 9, Sending ACK 9
+2020-11-03 13:05:00.006386 [RDT 3.0] Received Expected 10, Sending ACK 10
+2020-11-03 13:05:00.131403 [RDT 3.0] Received Expected 11, Sending ACK 11
+2020-11-03 13:05:00.240784 [RDT 3.0] Received Expected 12, Sending ACK 12
+2020-11-03 13:05:00.365754 [RDT 3.0] Received Expected 13, Sending ACK 13
+2020-11-03 13:05:00.490814 [RDT 3.0] Received Expected 14, Sending ACK 14
+2020-11-03 13:05:00.584573 [RDT 3.0] Received Expected 15, Sending ACK 15
+2020-11-03 13:05:00.709588 [RDT 3.0] ACK LOSS Occured at seq 16
+2020-11-03 13:05:00.834581 [RDT 3.0] Received Not Expected16, Sending ACK 17
+2020-11-03 13:05:00.943968 [RDT 3.0] Received Expected 17, Sending ACK 17
+2020-11-03 13:05:01.053356 [RDT 3.0] Received Expected 18, Sending ACK 18
+2020-11-03 13:05:01.147086 [RDT 3.0] Received Expected 19, Sending ACK 19
+2020-11-03 13:05:01.272146 [RDT 3.0] Received Expected 20, Sending ACK 20
+2020-11-03 13:05:01.506532 [RDT 3.0] Received Expected 21, Sending ACK 21
+2020-11-03 13:05:01.631560 [RDT 3.0] Received Expected 22, Sending ACK 22
+2020-11-03 13:05:01.740960 [RDT 3.0] Received Expected 23, Sending ACK 23
+2020-11-03 13:05:01.850351 [RDT 3.0] Received Expected 24, Sending ACK 24
+2020-11-03 13:05:01.943435 [RDT 3.0] Received Expected 25, Sending ACK 25
+2020-11-03 13:05:02.052823 [RDT 3.0] Received Expected 26, Sending ACK 26
+2020-11-03 13:05:02.177859 [RDT 3.0] Received Expected 27, Sending ACK 27
+2020-11-03 13:05:02.271609 [RDT 3.0] Received Expected 28, Sending ACK 28
+2020-11-03 13:05:02.365369 [RDT 3.0] Received Expected 29, Sending ACK 29
+2020-11-03 13:05:02.490382 [RDT 3.0] Received Expected 30, Sending ACK 30
+2020-11-03 13:05:02.584100 [RDT 3.0] Received Expected 31, Sending ACK 31
+2020-11-03 13:05:02.677902 [RDT 3.0] Received Expected 32, Sending ACK 32
+2020-11-03 13:05:02.802915 [RDT 3.0] Received Expected 33, Sending ACK 33
+2020-11-03 13:05:03.099819 [RDT 3.0] Received Expected 34, Sending ACK 34
+2020-11-03 13:05:03.193537 [RDT 3.0] Received Expected 35, Sending ACK 35
+2020-11-03 13:05:03.287355 [RDT 3.0] Received Expected 36, Sending ACK 36
+2020-11-03 13:05:03.381058 [RDT 3.0] Received Expected 37, Sending ACK 37
+2020-11-03 13:05:03.490485 [RDT 3.0] Received Expected 38, Sending ACK 38
+2020-11-03 13:05:03.584238 [RDT 3.0] Received Expected 39, Sending ACK 39
+2020-11-03 13:05:03.896734 [RDT 3.0] Received Expected 40, Sending ACK 40
+2020-11-03 13:05:04.006213 [RDT 3.0] Received Expected 41, Sending ACK 41
+2020-11-03 13:05:04.116843 [RDT 3.0] Received Expected 42, Sending ACK 42
+2020-11-03 13:05:04.226223 [RDT 3.0] Received Expected 43, Sending ACK 43
+2020-11-03 13:05:04.335619 [RDT 3.0] Received Expected 44, Sending ACK 44
+2020-11-03 13:05:04.445234 [RDT 3.0] Received Expected 45, Sending ACK 45
+2020-11-03 13:05:04.538973 [RDT 3.0] Received Expected 46, Sending ACK 46
+2020-11-03 13:05:04.648360 [RDT 3.0] Received Expected 47, Sending ACK 47
+2020-11-03 13:05:05.007793 [RDT 3.0] Received Expected 48, Sending ACK 48
+2020-11-03 13:05:05.117133 [RDT 3.0] Received Expected 49, Sending ACK 49
+2020-11-03 13:05:05.226567 [RDT 3.0] Received Expected 50, Sending ACK 50
+2020-11-03 13:05:05.570398 [RDT 3.0] Received Expected 51, Sending ACK 51
+2020-11-03 13:05:05.664112 [RDT 3.0] Received Expected 52, Sending ACK 52
+2020-11-03 13:05:05.773500 [RDT 3.0] Received Expected 53, Sending ACK 53
+2020-11-03 13:05:05.867259 [RDT 3.0] Received Expected 54, Sending ACK 54
+2020-11-03 13:05:05.992273 [RDT 3.0] Received Expected 55, Sending ACK 55
+2020-11-03 13:05:06.101659 [RDT 3.0] Received Expected 56, Sending ACK 56
+2020-11-03 13:05:06.195419 [RDT 3.0] Received Expected 57, Sending ACK 57
+2020-11-03 13:05:06.320432 [RDT 3.0] Received Expected 58, Sending ACK 58
+2020-11-03 13:05:06.429819 [RDT 3.0] Received Expected 59, Sending ACK 59
+2020-11-03 13:05:06.757973 [RDT 3.0] Received Expected 60, Sending ACK 60
+2020-11-03 13:05:06.882993 [RDT 3.0] Received Expected 61, Sending ACK 61
+2020-11-03 13:05:06.993942 [RDT 3.0] Received Expected 62, Sending ACK 62
+2020-11-03 13:05:07.103423 [RDT 3.0] Received Expected 63, Sending ACK 63
+2020-11-03 13:05:07.212809 [RDT 3.0] ACK LOSS Occured at seq 64
+2020-11-03 13:05:07.415965 [RDT 3.0] Received Not Expected64, Sending ACK 65
+2020-11-03 13:05:07.540969 [RDT 3.0] Received Expected 65, Sending ACK 65
+2020-11-03 13:05:07.637094 [RDT 3.0] Received Expected 66, Sending ACK 66
+2020-11-03 13:05:07.728718 [RDT 3.0] Received Expected 67, Sending ACK 67
+2020-11-03 13:05:07.845089 [RDT 3.0] Received Expected 68, Sending ACK 68
+2020-11-03 13:05:07.954477 [RDT 3.0] Received Expected 69, Sending ACK 69
+2020-11-03 13:05:08.063861 [RDT 3.0] Received Expected 70, Sending ACK 70
+2020-11-03 13:05:08.157625 [RDT 3.0] Received Expected 71, Sending ACK 71
+2020-11-03 13:05:08.267054 [RDT 3.0] Received Expected 72, Sending ACK 72
+2020-11-03 13:05:08.392072 [RDT 3.0] Received Expected 73, Sending ACK 73
+2020-11-03 13:05:08.485829 [RDT 3.0] ACK LOSS Occured at seq 74

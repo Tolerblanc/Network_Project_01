@@ -48,25 +48,25 @@ def send(packet, sock, addr):
     :param addr: (Address, Port)tuple
     :return sent successfully
     """
-    if random.random() > LOSS_PROB:
+    if random.random() > LOSS_PROB:  # if not loss
         sock.sendto(packet, addr)
         return True
-    elif packet == b'\xff\xff\xff\xff':
+    elif packet == b'\xff\xff\xff\xff':  # if received packet is packet(-1)
         sock.sendto(packet, addr)
         return True
-    else:
+    else: # if loss, don't send
         return False
 
-def recv(sock):
+def recv(sock):  # packet receiver
     pack, addr = sock.recvfrom(1024)
     return pack, addr
 
 
-def make_packet(sequence):
+def make_packet(sequence):  # packet maker
     bytes = sequence.to_bytes(4, byteorder='little', signed=True)
     return bytes
 
 
-def extract_packet(packet):
+def extract_packet(packet):  # packet extractor
     seq_num = int.from_bytes(packet[0:4], byteorder='little',signed=True)
     return seq_num
