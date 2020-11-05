@@ -5,7 +5,6 @@ Author   : HyunJun KIM (2019204054)
 """
 
 from matplotlib import pyplot as plt
-import numpy as np
 import sys
 
 # data : data#  TestingTime  LossProbability  TimeoutThreshold  RTT  (WindowSize)

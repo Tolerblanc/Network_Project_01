@@ -13,7 +13,7 @@ RECEIVER_ADDR = "127.0.0.1"
 RECEIVER_PORT = 4242
 SENDER_ADDR = "127.0.0.1"
 SENDER_PORT = 2424
-TIMEOUT_THRESHOLD = 0.082  # default timeout value
+TIMEOUT_THRESHOLD = 0.11  # default timeout value
 WINDOW_SIZE = 10  # sender window size (G&B, SR)
 MAXIMUM_TIME = 10  # max execute time
 TIME_LIMITER = time.time() + MAXIMUM_TIME  # max time threshold
@@ -42,7 +42,7 @@ def rdt3_send(sock):
         return
     print('working')
     next_seq_num = 0  # next sequence number
-    base = 0  # sequence flag
+    base = 0  # Window flag (right sequence in rdt3)
 
     _thread.start_new_thread(rdt3_ack_receive, (sock,))  # start parallel thread
 
@@ -54,9 +54,10 @@ def rdt3_send(sock):
             log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Data Loss Occured : ' + str(next_seq_num) + '\n')
         else:
             log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Sending sequence : ' + str(next_seq_num) + '\n')
-            next_seq_num = 1 - next_seq_num  #seq0 -> seq1, seq1 -> seq0
+        next_seq_num += 1
+        # next_seq_num = 1 - next_seq_num  #default rdt 3.0 => Implement these for easy viewing of logs
 
-        if not send_timer.isOngoing(): 
+        if not send_timer.isOngoing():
             send_timer.start()
 
         # sleep to raise timeout
@@ -65,11 +66,11 @@ def rdt3_send(sock):
             sleeper = random.uniform(RTT_MIN, RTT_MAX)
             time.sleep(sleeper)
             log.write(str(datetime.datetime.now()) + ' [RDT 3.0] RTT : Sleep ' + str(sleeper) + 's at' + str(
-                1 - next_seq_num) + '\n')
+                next_seq_num) + '\n')
             mutex.acquire()
 
         if send_timer.chk_timeout():
-            log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Timeout : ' + str(base) + '\n')
+            log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Timeout : ' + str(next_seq_num - 1) + '\n')
             send_timer.reset()
             next_seq_num = base
         mutex.release()  # lock object acquire
@@ -91,7 +92,6 @@ def gbn_send(sock):
     global base, mutex, send_timer
 
     # log file input
-
     try:
         log = open("sendlog.txt", 'a')
     except IOError:
@@ -99,14 +99,14 @@ def gbn_send(sock):
         return
     print('working')
     next_seq_num = 0  # next sequence number
-    base = 0  # sequence flag
+    base = 0  # Window flag
 
     _thread.start_new_thread(gbn_ack_receive, (sock,))  # start parallel thread
 
     while time.time() <= TIME_LIMITER:  # limit work time
         mutex.acquire()  # lock object acquire
 
-        while next_seq_num < base + WINDOW_SIZE:  #send packets in Window
+        while next_seq_num < base + WINDOW_SIZE:  # send packets in Window
             pack = utils.make_packet(next_seq_num)
             sent = utils.send(pack, sock, (RECEIVER_ADDR, RECEIVER_PORT))
             if not sent:
@@ -124,11 +124,11 @@ def gbn_send(sock):
             sleeper = random.uniform(RTT_MIN, RTT_MAX)
             time.sleep(sleeper)
             log.write(str(datetime.datetime.now()) + ' [GoBackN] RTT : Sleep ' + str(sleeper) + 's at' + str(
-                next_seq_num - 1) + '\n')
+                next_seq_num) + '\n')
             mutex.acquire()
 
         if send_timer.chk_timeout():
-            log.write(str(datetime.datetime.now()) + ' [GoBackN] Timeout : ' + str(next_seq_num - 1) + '\n')
+            log.write(str(datetime.datetime.now()) + ' [GoBackN] Timeout : ' + str(next_seq_num) + '\n')
             send_timer.reset()
             next_seq_num = base
         mutex.release()
@@ -163,7 +163,7 @@ def sr_send(sock):
 
     while time.time() <= TIME_LIMITER:  # limit work time
         mutex.acquire()  # lock object acquire
-        while next_seq_num < base + WINDOW_SIZE:  # repeat (window size) times
+        while next_seq_num < len(acked):  # repeat (window size) times
             if acked[next_seq_num]:  # pass if acked
                 log.write(str(datetime.datetime.now()) + ' [SelRep] Duplicated : ' + str(next_seq_num)
                           + ' pass this sequence\n')
@@ -231,7 +231,7 @@ def rdt3_ack_receive(sock):
 
 def gbn_ack_receive(sock):
     """
-    go-back-N ack receiver
+    ack receiver
     :param sock: python socket object
     """
     global base, mutex, send_timer
@@ -266,9 +266,9 @@ def sr_ack_receive(sock):
             send_timer.reset()
             mutex.release()
 
-        for ack in acked[base:]:
-            if not ack:
-                base = acked.index(ack)
+        for i in range(base, len(acked)):
+            if not acked[i]:
+                base = i
                 break
 
 
