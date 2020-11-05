@@ -45,8 +45,7 @@ def rdt3_receive(sock):
                 log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Received Expected ' +
                           str(seq_num) + ', Sending ACK ' + str(expected_seq) + '\n')
             received_pack.append(expected_seq)
-            expected_seq += 1
-            # expected_seq = 1 - expected_seq  # default rdt 3.0 => Implement these for easy viewing of logs
+            expected_seq = 1 - expected_seq  # seq0 -> seq1, seq1 -> seq0
         else:  # received unexpected sequence
             pack = utils.make_packet(seq_num)
             sent = utils.send(pack, sock, addr)
@@ -54,7 +53,7 @@ def rdt3_receive(sock):
                 log.write(str(datetime.datetime.now()) + ' [RDT 3.0] ACK LOSS Occured at seq ' + str(seq_num) + '\n')
             else:
                 log.write(str(datetime.datetime.now()) + ' [RDT 3.0] Received Not Expected' +
-                          str(seq_num) + ', Sending ACK ' + str(expected_seq) + '\n')
+                          str(seq_num) + ', Sending ACK ' + str(1 - expected_seq) + '\n')
 
     log.close()
     return received_pack
